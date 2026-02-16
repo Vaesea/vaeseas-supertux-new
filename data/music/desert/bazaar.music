@@ -1,8 +1,0 @@
-(supertux-music
-  (file "bazaar.ogg")
-  (title "Bazaar")
-  (authors "SubspaceAudio")
-  (license "CC0")
-  (loop-begin 0)
-  (loop-at    -1)
-)

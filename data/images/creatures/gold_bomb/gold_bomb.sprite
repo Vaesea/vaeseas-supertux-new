@@ -1,81 +1,69 @@
 (supertux-sprite
  (action
   (name "left")
-  (fps 14.0)
-  (hitbox 5 11 32 32)
-  (images "gb1.png"
-          "gb2.png"
-          "gb3.png"
-          "gb4.png"
-		  "gb5.png"
-		  "gb6.png"
-		  "gb7.png"
-		  "gb8.png"))
+  (fps 10.0)
+  (hitbox 5 8 32 32)
+  (images "left-0.png"
+          "left-1.png"
+          "left-2.png"
+          "left-1.png"))
 
  (action
   (name "right")
-  (fps 14.0)
-  (hitbox 5 11 32 32)
+  (fps 10.0)
+  (hitbox 5 8 32 32)
   (mirror-action "left"))
  
  (action
   (name "flee-left")
-  (fps 24.0)
-  (hitbox 5 11 32 32)
-  (images "gb1.png"
-          "gb2.png"
-          "gb3.png"
-          "gb4.png"
-		  "gb5.png"
-		  "gb6.png"
-		  "gb7.png"
-		  "gb8.png"))
+  (fps 20.0)
+  (hitbox 5 8 32 32)
+  (images "left-0.png"
+          "left-1.png"
+          "left-2.png"
+          "left-1.png"))
 
  (action
   (name "flee-right")
-  (fps 24.0)
-  (hitbox 5 11 32 32)
+  (fps 20.0)
+  (hitbox 5 8 32 32)
   (mirror-action "flee-left"))
  
  (action
   (name "scared-left")
-  (hitbox 5 11 32 32)
-  (images "gb2.png"))
+  (hitbox 5 8 32 32)
+  (images "left-0.png"))
 
  (action
   (name "scared-right")
-  (hitbox 5 11 32 32)
+  (hitbox 5 8 32 32)
   (mirror-action "scared-left"))
   
   (action
   (name "recover-left")
-  (fps 24.0)
+  (fps 20.0)
   (loops 1)
-  (hitbox 5 11 32 32)
-  (images "gb1.png"
-          "gb2.png"
-          "gb3.png"
-          "gb4.png"
-		  "gb5.png"
-		  "gb6.png"
-		  "gb7.png"
-		  "gb8.png"))
+  (hitbox 5 8 32 32)
+  (images "left-0.png"
+          "left-1.png"
+          "left-2.png"
+          "left-1.png"))
 
  (action
   (name "recover-right")
-  (fps 24.0)
+  (fps 20.0)
   (loops 1)
   (hitbox 5 11 32 32)
   (mirror-action "recover-left"))
  
  (action
   (name "iced-left")
-  (hitbox 5 11 32 32)
-  (images "gb1.png"))
+  (hitbox 5 8 32 32)
+  (images "left-1.png"))
  
  (action
   (name "iced-right")
-  (hitbox 5 11 32 32)
+  (hitbox 5 8 32 32)
   (mirror-action "iced-left"))
 
  (action

@@ -1,20 +1,14 @@
 (supertux-sprite
  (action
   (name "left")
-  (fps 14)
-  (hitbox 6 13 31.8 31.8)
-  (images "spikywalk1.png"
-		  "spikywalk2.png"
-          "spikywalk3.png"
-		  "spikywalk4.png"
-		  "spikywalk5.png"
-		  "spikywalk6.png"
-		  "spikywalk7.png"
-		  "spikywalk8.png"))
+  (hitbox 6 10 31.8 31.8)
+  (images "left-0.png"
+          "left-1.png"
+          "left-2.png"
+          "left-1.png"))
  (action
   (name "right")
-  (fps 14)
-  (hitbox 6 13 31.8 31.8)
+  (hitbox 6 10 31.8 31.8)
   (mirror-action "left"))
  (action
   (name "iced-left")

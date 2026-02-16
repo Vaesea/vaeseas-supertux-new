@@ -1,8 +1,0 @@
-(supertux-music
-  (file "jumpandrun.ogg")
-  (title "Jump And Run - Tropical Mix")
-  (authors "Bart")
-  (license "GPL 2, GPL 3, CC-BY 3.0, CC-BY-SA 3.0")
-  (loop-begin 0)
-  (loop-at    -1)
-)

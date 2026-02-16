@@ -1,46 +1,48 @@
 (supertux-sprite
  (action
-  (name "stand-left")
-  (hitbox 23 26 40 79)
-  (images "stand-0.png")
- )
-
- (action
-  (name "stand-right")
-  (hitbox 23 26 40 79)
-  (mirror-action "stand-left")
- )
-
- (action
-  (name "walk-left")
-  (fps 10.0)
-  (hitbox 23 26 40 79)
+  (name "left")
+  (fps 6)
+  (hitbox 18 11 62 134)
   (images "walk-0.png"
           "walk-1.png"
-          "walk-2.png"
-          "walk-3.png"
-          "walk-4.png"
-          "walk-5.png"
-          "walk-6.png"
-          "walk-7.png")
+"walk-2.png"
+"walk-3.png"
+
+)
  )
 
  (action
-  (name "walk-right")
-  (fps 10.0)
-  (hitbox 23 26 40 79)
-  (mirror-action "walk-left")
+  (name "right")
+  (fps 6)
+  (hitbox 18 11 62 134)
+  (mirror-action "left")
+ )
+         
+ (action
+  (name "stand")
+  (hitbox 18 11 62 134)
+  (images "walk-0.png")
+ )
+         
+ (action
+  (name "throw")
+  (fps 6)
+  (hitbox 18 9 54 95)
+  (images "jump-0.png"
+          )
  )
 
  (action
-  (name "jump-left")
-  (hitbox 23 26 40 79)
-  (images "jump-0.png")
+  (name "jump")
+  (hitbox 18 9 54 95)
+  (images "jump-0.png"
+"jump-1.png"
+)
  )
-
+         
  (action
-  (name "jump-right")
-  (hitbox 23 26 40 79)
-  (mirror-action "jump-left")
+  (name "dead")
+  (hitbox 18 11 62 134)
+  (images "throw-0.png")
  )
 )

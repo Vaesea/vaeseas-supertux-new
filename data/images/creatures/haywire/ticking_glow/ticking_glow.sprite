@@ -10,14 +10,7 @@
   (action
     (name "run")
     (fps 20)
-    (images "ticking_glow-0.png"
-            "ticking_glow-1.png"
-            "ticking_glow-2.png"
-            "ticking_glow-3.png"
-            "ticking_glow-4.png"
-            "ticking_glow-5.png"
-            "ticking_glow-6.png"
-            "ticking_glow-7.png")
+    (images "ticking_glow-0.png")
     (hitbox 75 75 0 0))
 
   (action

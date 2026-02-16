@@ -4,9 +4,4 @@
     (hitbox 357 384 384 384)
     (images "flame_light.png")
   )
-  (action
-    (name "greyscale")
-    (hitbox 357 384 384 384)
-    (images "greyscale/flame_light.png")
-  )
 )

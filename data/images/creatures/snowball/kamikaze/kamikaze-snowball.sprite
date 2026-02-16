@@ -1,19 +1,12 @@
 (supertux-sprite
   (action
     (name "left")
-	(fps 15)
-    (hitbox 6 6 36 26)
-    (images "ks1.png"
-	        "ks2.png"
-			"ks3.png"
-			"ks4.png"
-			"ks5.png"
-			"ks6.png")
+    (hitbox 0 0 37 28)
+    (images "kamikaze-left.png")
   )
   (action
     (name "right")
-	(fps 15)
-    (hitbox 26 6 36 26)
+    (hitbox 0 0 37 28)
     (mirror-action "left")
   )
   (action
@@ -28,12 +21,11 @@
   )
   (action
     (name "collision-left")
-	(hitbox 1 1 13 33)
     (images "collision-left.png")
   )
   (action
     (name "collision-right")
-    (hitbox 1 1 13 33)
+    (hitbox -24 1 12.8 31.8)
     (mirror-action "collision-left")
   )
 )

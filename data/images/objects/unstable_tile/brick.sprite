@@ -2,32 +2,30 @@
   (action
     (name "default")
     (images 
-      "brick-0.png"
+      "normal.png"
     )
   )
   (action
-    (name "dissolve")
-    (fps 10)
-	(loops 1)
+    (name "shake")
+    (fps 20)
     (images 
-      "brick-0.png"
-	  "brick-1.png"
-	  "brick-2.png"
-	  "brick-3.png"
-	  "brick-4.png"
-	  "brick-5.png"
-	  "brick-6.png"
-	  "brick-7.png"
-	  "brick-8.png"
-	  "brick-9.png"
-	  "brick-10.png"
-	  "brick-11.png"
+      "crumbling-0.png"
+      "crumbling-1.png"
+      "crumbling-0.png"
+      "crumbling-1.png"
+      "crumbling-0.png"
+      "crumbling-1.png"
+      "crumbling-0.png"
+      "crumbling-1.png"
+      "crumbling-0.png"
+      "crumbling-1.png"
     )
   )
   (action
     (name "fall-down")
+    (fps 1)
     (images 
-      "brick-11.png"
+      "normal.png"
     )
   )
 )

@@ -1,9 +1,7 @@
-(supertux-level-subset
-  (title (_ "Rooted Forest"))
-  (description (_ "World 2"))
+(supertux-world
+  (title (_ "Forest World"))
+  (description "An attempt at the Forest world planned for Milestone 3")
+  (hide-from-contribs #f)
   (levelset #f)
   (contrib-type "official")
-  (hide-from-contribs #f)
-  (title-level "")
-  (tuxdolls-required 0)
 )

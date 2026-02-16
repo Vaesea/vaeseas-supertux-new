@@ -1,8 +1,0 @@
-(supertux-music
-  (file "jungle.ogg")
-  (title "Jungle Jumpin")
-  (authors "Scott Elliott")
-  (license "CC-BY 4.0")
-  (loop-begin 0)
-  (loop-at    -1)
-)

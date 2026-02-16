@@ -1,8 +1,8 @@
 (supertux-level
   (version 3)
-  (name (_ "Intro"))
-  (author "Sophie \"Vaesea\" Ball")
-  (license "CC-BY-SA 4.0 International")
+  (name (_ "Picnic With Penny"))
+  (author "SuperTux Team")
+  (license "GPL 2+ / CC-by-sa 3.0")
   (allow-item-pocket "inherit")
   (icon "")
   (icon-locked "")
@@ -12,181 +12,134 @@
   )
   (sector
     (name "main")
-    (init-script "Text.set_text(\"Somewhere in a very cold place named Icy Island...\");
-Tux.set_bonus(\"grow\");
-Letter.set_visible(false);
-Nolok.set_action(\"stand-left\");
-Tux.deactivate();
-Tux.set_dir(true);
-Text.set_font(\"normal\");
-Text.fade_in(1);
-wait(3);
-Text.fade_out(1);
-wait(1);
-Tux.walk(320);")
+    (init-script "import(\"levels/world1/intro.nut\");
+trigger_state(\"start\");
+")
     (ambient-light
       (color 1 1 1)
-    )
-    (background
-      (scroll-offset-x 928)
-      (scroll-offset-y 704)
-      (color 1 1 1)
-      (speed 0.5)
-      (image-top "/images/background/semi_arctic.jpg")
-      (image "/images/background/semi_arctic.jpg")
-      (image-bottom "/images/background/semi_arctic.jpg")
     )
     (camera
       (name "Camera")
       (mode "normal")
     )
-    (decal
-      (z-pos 50)
-      (sprite "/images/engine/menu/logo.png")
-      (x 1568)
-      (y 512)
+    (gradient
+      (top_color 0 0.85 1)
+      (bottom_color 0 0.6 1)
     )
     (music
-      (file "/music/intro.ogg")
+      (file "music/intro.ogg")
     )
     (particles-snow
     )
     (scriptedobject
-      (z-pos 50)
-      (name "Penny")
-      (sprite "/images/creatures/penny/penny.sprite")
-      (x 3744)
-      (y 896)
+      (z-pos 10)
+      (visible #f)
+      (solid #f)
+      (name "LOGO")
+      (sprite "/images/engine/menu/logo.png")
+      (x 1568)
+      (y 1024)
     )
     (scriptedobject
-      (z-pos -50)
+      (z-pos 50)
+      (name "RADIO")
+      (sprite "images/objects/radio/radio.sprite")
+      (x 3404)
+      (y 1302)
+    )
+    (scriptedobject
+      (z-pos 50)
       (physic-enabled #f)
       (solid #f)
-      (name "Tree")
-      (sprite "/images/tiles/doodads/iceshrub.sprite")
-      (x 3904)
-      (y 832)
+      (name "BUSH")
+      (sprite "images/tiles/doodads/iceshrub.sprite")
+      (x 3607)
+      (y 1220)
+    )
+    (scriptedobject
+      (z-pos 50)
+      (name "NOLOK")
+      (sprite "images/creatures/nolok/nolok.sprite")
+      (x 3631)
+      (y 1276)
+    )
+    (scriptedobject
+      (z-pos 50)
+      (name "PENNY")
+      (sprite "images/creatures/penny/penny.sprite")
+      (x 3489)
+      (y 1280)
     )
     (scriptedobject
       (z-pos -100)
-      (name "Nolok")
-      (sprite "/images/creatures/nolok/nolok.sprite")
-      (x 3948)
-      (y 896)
-    )
-    (scriptedobject
-      (z-pos 50)
+      (visible #f)
       (physic-enabled #f)
       (solid #f)
-      (name "Fish")
-      (sprite "/images/objects/eat-me/eat-me.sprite")
-      (x 3648)
-      (y 920)
-    )
-    (scriptedobject
-      (z-pos 50)
-      (physic-enabled #f)
-      (solid #f)
-      (name "Letter")
-      (sprite "/images/objects/letter/letter-small.sprite")
-      (x 3968)
-      (y 896)
+      (name "SIGN")
+      (sprite "images/tiles/signs/right.sprite")
+      (x 3200)
+      (y 1280)
     )
     (scripttrigger
-      (oneshot #t)
-      (script "Tux.walk(0);
-wait(1);
-Text.set_text(\"There were two penguins named Tux and Penny.\");
-Text.set_font(\"normal\");
-Text.fade_in(1);
-wait(3);
-Text.fade_out(1);
-wait(1.5);
-Text.set_text(\"They were having a picnic, when suddenly...\");
-Text.fade_in(1);
-wait(3);
-Text.fade_out(1);
-wait(1.5);
-Nolok.set_action(\"walk-left\");
-Nolok.set_velocity(-320, -256);
-wait(0.1);
-Tux.walk(-140);
-Tux.do_jump(-256);
-wait(0.2);
-Effect.fade_out(0.1);
-wait(0.1);
-Tux.walk(0);
-Penny.set_solid(false);
-Penny.set_visible(false);
-Nolok.set_solid(false);
-Nolok.set_visible(false);
-Letter.set_visible(true);
-Fish.set_visible(false);
-wait(2);
-Effect.fade_in(1);
-wait(1.5);
-Text.set_text(\"Tux and Penny were attacked by Nolok, and Nolok had put a letter on the tree!\");
-Text.fade_in(1);
-wait(4);
-Text.fade_out(1);
-wait(1.5);
-Tux.walk(320);")
+      (script "trigger_state(\"rap_scene\");")
       (button #f)
       (width 32)
-      (height 32)
-      (x 3616)
-      (y 928)
+      (height 520)
+      (x 3380)
+      (y 832)
     )
     (scripttrigger
-      (oneshot #t)
-      (script "Tux.walk(0);
-wait(0.5);
-Text.set_text(\"When Tux read the letter, he was shocked! He didn't know who this strange Nolok guy was until now!\");
-Text.set_font(\"normal\");
-Text.fade_in(1);
-wait(4);
-Text.fade_out(1);
-wait(1.5);
-Tux.walk(320);
-Text.set_text(\"Tux had to find Nolok and save Penny...\");
-Text.fade_in(1);
-wait(3);
-Text.fade_out(1);
-wait(1.5);
-Effect.fade_out(2);
-wait(3);
-Level.finish(true);")
+      (script "trigger_state(\"end_level\");
+")
       (button #f)
       (width 32)
-      (height 128)
-      (x 3984)
-      (y 928)
+      (height 380)
+      (x 5760)
+      (y 960)
+    )
+    (scripttrigger
+      (script "trigger_state(\"logo_in\");
+")
+      (button #f)
+      (width 32)
+      (height 540)
+      (x 1152)
+      (y 800)
+    )
+    (scripttrigger
+      (script "trigger_state(\"intro_text\");
+")
+      (button #f)
+      (width 32)
+      (height 540)
+      (x 2528)
+      (y 800)
     )
     (spawnpoint
       (name "main")
-      (x 64)
-      (y 896)
+      (x 480)
+      (y 1280)
     )
     (tilemap
       (solid #f)
       (z-pos -100)
       (width 200)
-      (height 35)
-      (tiles -2801 0 85 86 87 88 -63 0 85 86 87 88 -81 0 85 86 87 88 -42 0 85 0 89 90 91 92 -38 0 85 86 87 88 -21 0 89 90 91 92 -25 0 85 86 87 88 -23 0 85 86 87 88 -25 0 89 90 91 92 -23 0 85 86 87 88 -15 0 89 -43 0 89 90 91 92 -50 0 89 90 91 92 -23 0 89 90 91 92 -52 0 89 90 91 92 -1458 0 1321 1322 1323 1324 -167 0 122 123 -27 0 1325 1326 1327 1328 -30 0 122 123 -5 0 122 123 -70 0 122 123 -52 0 122 123 -2 0 124 125 -2 0 122 123 -23 0 1329 1330 1331 1332 -26 0 122 123 -2 0 124 125 -5 0 124 125 -2 0 122 123 -56 0 122 123 -8 0 124 125 -8 0 122 123 -19 0 1321 1322 1323 1324 -19 0 124 125 -2 0 124 125 -2 0 124 125 -23 0 1333 1334 1335 1336 -26 0 124 125 -2 0 124 125 -5 0 124 125 -2 0 124 125 -13 0 122 123 -31 0 122 123 -8 0 124 125 -8 0 124 125 -8 0 124 125 -8 0 122 123 -9 0 1325 1326 1327 1328 -10 0 106 107 108 -6 0 124 125 -2 0 124 125 -2 0 124 125 -11 0 106 107 108 -35 0 106 107 108 0 124 125 -2 0 124 125 -5 0 124 125 -2 0 124 125 -13 0 124 125 106 107 108 -28 0 124 125 -8 0 124 125 106 107 108 -5 0 124 125 -8 0 124 125 -8 0 124 125 -9 0 1329 1330 1331 1332 -4 0 106 107 108 -3 0 109 110 111 24 0 25 -3 0 124 125 0 24 124 125 -2 0 124 125 24 25 -9 0 109 110 111 0 24 -16 0 25 0 24 -14 0 109 110 111 0 124 125 -2 0 124 125 0 25 -2 0 24 124 125 -2 0 124 125 -2 0 24 -7 0 25 -2 0 124 125 109 110 111 -4 0 24 -8 0 25 -7 0 24 -6 0 124 125 0 24 0 25 -4 0 124 125 109 110 111 0 24 -3 0 124 125 0 24 -3 0 25 -2 0 124 125 0 24 -6 0 124 125 -3 0 24 -2 0 25 -2 0 1333 1334 1335 1336 0 24 -2 0 109 110 111 -2 0 25 -1000 0)
-    )
-    (tilemap
-      (solid #f)
-      (z-pos 100)
-      (width 200)
-      (height 35)
-      (tiles -7000 0)
+      (height 50)
+      (tiles -7710 0 -5 1278 -58 0 1321 1322 1323 1324 -32 0 122 209 123 -24 0 122 209 123 -9 0 122 209 123 -16 0 122 209 123 -4 0 122 209 123 -18 0 122 209 123 -12 0 -4 1278 -45 0 122 209 123 -11 0 1325 1326 1327 1328 -17 0 122 209 123 -12 0 124 210 125 -5 0 141 142 -6 0 122 209 123 -8 0 124 210 125 -3 0 106 107 108 -3 0 124 210 125 -16 0 124 210 125 -4 0 124 210 125 -18 0 124 210 125 -12 0 -4 1278 -9 0 122 209 123 -16 0 106 107 108 -14 0 124 210 125 -11 0 1329 1330 1331 1332 -17 0 124 210 125 -12 0 1345 1346 1344 -5 0 143 144 -6 0 124 210 125 -2 0 24 0 25 -3 0 1345 1346 1344 -3 0 109 110 111 25 -2 0 1345 1346 1344 -9 0 25 -4 0 24 0 1345 1346 1344 -4 0 1345 1346 1344 -2 0 24 -2 0 25 -12 0 1345 1346 1344 -2 0 -4 8 -3 0 -6 1278 -4 8 -3 0 25 -2 0 124 210 125 -8 0 24 0 24 -5 0 109 110 111 -9 0 25 0 24 -2 0 1345 1346 1344 -7 0 25 -2 0 8 1333 1334 1335 1336 0 25 -11 0 -3 8 0 1345 1346 1344 -28 0 1345 1346 1344 -95 0 1345 1346 1344 -1474 0)
     )
     (tilemap
       (solid #t)
       (z-pos 0)
       (width 200)
-      (height 35)
-      (tiles -5442 0 2909 2910 2913 2914 -13 0 2909 2910 2913 2914 -161 0 2909 2910 2913 2914 -10 0 2909 2910 2921 2922 2911 2912 2915 2916 2917 2918 2913 2914 -5 0 2909 2910 2921 2922 2911 2912 2915 2916 2917 2918 2913 2914 -27 0 2909 2910 2913 2914 -102 0 -22 8 2921 2922 2911 2912 2915 2916 2917 2918 -6 8 2921 2922 2911 2912 2923 2924 1834 -2 11 1835 2919 2920 2915 2916 2917 2918 8 2921 2922 2911 2912 2923 2924 1834 -2 11 1835 2919 2920 2915 2916 2917 2918 -23 8 2921 2922 2911 2912 2915 2916 2917 2918 -100 8 -22 14 2923 2924 1834 -2 11 1835 2919 2920 -6 14 2923 2924 1834 -10 11 1835 2919 2920 14 2923 2924 1834 -10 11 1835 2919 2920 -23 14 2923 2924 1834 -2 11 1835 2919 2920 -100 14 -800 11)
+      (height 50)
+      (tiles -260 0 85 86 87 88 -180 0 85 86 87 88 -12 0 89 90 91 92 -97 0 85 86 87 88 -54 0 85 86 87 88 -21 0 89 90 91 92 -47 0 85 86 87 88 -46 0 85 86 87 88 -12 0 89 90 91 92 -54 0 89 90 91 92 -58 0 85 86 87 88 -10 0 89 90 91 92 -21 0 85 86 87 88 -21 0 89 90 91 92 -47 0 85 86 87 88 0 85 86 87 88 -76 0 89 90 91 92 -35 0 89 90 91 92 -58 0 85 86 87 88 -10 0 89 90 91 92 0 89 90 91 92 -30 0 85 86 87 88 -27 0 85 86 87 88 -32 0 85 86 87 88 -76 0 89 90 91 92 -49 0 89 90 91 92 -27 0 89 90 91 92 -32 0 89 90 91 92 -30 0 85 86 87 88 -27 0 85 86 87 88 -46 0 85 86 87 88 -32 0 85 86 87 88 -79 0 89 90 91 92 -27 0 89 90 91 92 -46 0 89 90 91 92 -32 0 89 90 91 92 -97 0 85 86 87 88 -46 0 85 86 87 88 -80 0 85 86 87 88 -62 0 89 90 91 92 -46 0 89 90 91 92 -66 0 85 86 87 88 -10 0 89 90 91 92 -53 0 85 86 87 88 -40 0 85 86 87 88 -81 0 89 90 91 92 -34 0 85 86 87 88 -13 0 85 86 87 88 -12 0 89 90 91 92 -26 0 85 86 87 88 -10 0 89 90 91 92 -119 0 89 90 91 92 -13 0 89 90 91 92 -42 0 89 90 91 92 -5421 0 -190 8 -2 0 -8 8 -200 14 -1400 11)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (width 200)
+      (height 50)
+      (tiles -8021 0 106 107 108 -32 0 106 107 108 -105 0 106 107 108 -54 0 109 110 111 -32 0 109 110 111 -105 0 109 110 111 -54 0 -3 14 -32 0 -3 14 -105 0 -3 14 -433 0 -200 201 -800 200)
     )
   )
 )

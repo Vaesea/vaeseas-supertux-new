@@ -1,0 +1,1877 @@
+(supertux-level
+  (version 3)
+  (name (_ "Tree Fortress"))
+  (author "Christoph Sommer")
+  (license "GPL 2+ / CC-by-sa 3.0")
+  (allow-item-pocket "inherit")
+  (icon "")
+  (icon-locked "")
+  (statistics
+    (enable-coins #t)
+    (enable-secrets #t)
+  )
+  (sector
+    (name "main")
+    (ambient-light
+      (color 1 1 1)
+    )
+    (background
+      (scroll-offset-y -270)
+      (color 1 1 1)
+      (speed 0.5)
+      (image-top "images/background/BlueRock_Forest/blue-top.jpg")
+      (image "images/background/BlueRock_Forest/blue-middle.jpg")
+      (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989814290672")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989820573088")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989814493632")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989798004400")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989741507456")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989834992912")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989834052672")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989814446064")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989801143840")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989797350912")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989834813872")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989834819280")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989798073792")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989820445424")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989797422976")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989822768768")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989799174880")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989834838064")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989834496592")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989804698960")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989804600000")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989822892064")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989805097056")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989814399120")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989733604032")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989834658816")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989805122016")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989822712800")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989814204384")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989833782736")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989820418560")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989805033632")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989822205600")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989799175632")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989814128192")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989820462160")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989820305856")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989740738720")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989847116448")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989843190864")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989834901584")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989834772480")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989797157840")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989822495696")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989822662528")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989796928128")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989814531904")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989819883584")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989804977344")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989843020464")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989834452304")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989834066800")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989820338832")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989798741584")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989799186608")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989814298400")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989820161120")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989797427264")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989800983264")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989823040064")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989822979424")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989801106624")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989804676720")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989814387952")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989798465728")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989813083632")
+    )
+    (coin
+      (z-pos 49)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen1772930204104989834798144")
+    )
+    (decal
+      (z-pos -102)
+      (sprite "images/tiles/doodads/liane.png")
+      (x 1788)
+      (y 1440)
+    )
+    (decal
+      (z-pos -102)
+      (sprite "images/tiles/doodads/liane.png")
+      (x 2128)
+      (y 1440)
+    )
+    (decal
+      (z-pos -102)
+      (sprite "images/tiles/doodads/liane.png")
+      (x 5712)
+      (y 1440)
+    )
+    (decal
+      (z-pos -102)
+      (sprite "images/tiles/doodads/liane.png")
+      (x 5500)
+      (y 1440)
+    )
+    (decal
+      (z-pos -102)
+      (sprite "images/tiles/doodads/liane.png")
+      (x 5720)
+      (y 416)
+    )
+    (decal
+      (z-pos -102)
+      (sprite "images/tiles/doodads/liane.png")
+      (x 5500)
+      (y 416)
+    )
+    (firefly
+      (z-pos 0)
+      (x 1616)
+      (y 320)
+    )
+    (firefly
+      (z-pos 0)
+      (x 960)
+      (y 2560)
+    )
+    (firefly
+      (z-pos 0)
+      (x 4285.12)
+      (y 429.7545)
+    )
+    (flame
+      (z-pos 150)
+      (x 2240)
+      (y 1952)
+    )
+    (haywire
+      (z-pos 50)
+      (direction "left")
+      (x 1221)
+      (y 264)
+      (glinting #f)
+    )
+    (haywire
+      (z-pos 50)
+      (direction "right")
+      (x 3077)
+      (y 1160)
+      (glinting #f)
+    )
+    (invisible_wall
+      (width 32)
+      (height 300)
+      (x 3808)
+      (y -300)
+    )
+    (invisible_wall
+      (width 32)
+      (height 300)
+      (x 6208)
+      (y -300)
+    )
+    (invisible_wall
+      (width 1356)
+      (height 32)
+      (x 4852)
+      (y -96)
+    )
+    (jumpy
+      (type "wooden")
+      (z-pos 50)
+      (x 3527)
+      (y 1288)
+      (glinting #f)
+    )
+    (jumpy
+      (type "wooden")
+      (z-pos 50)
+      (x 5399)
+      (y 1256)
+      (glinting #f)
+    )
+    (jumpy
+      (type "wooden")
+      (z-pos 50)
+      (x 4390.28)
+      (y 453.264)
+      (glinting #f)
+    )
+    (jumpy
+      (type "wooden")
+      (z-pos 50)
+      (x 7488)
+      (y 1760)
+      (glinting #f)
+    )
+    (jumpy
+      (type "wooden")
+      (z-pos 50)
+      (x 1543)
+      (y 2600)
+      (glinting #f)
+    )
+    (jumpy
+      (type "wooden")
+      (z-pos 50)
+      (x 1983.308)
+      (y 2483.359)
+      (glinting #f)
+    )
+    (mrbomb
+      (z-pos 50)
+      (direction "left")
+      (x 4517)
+      (y 1320)
+      (glinting #f)
+    )
+    (mrbomb
+      (z-pos 50)
+      (x 3749)
+      (y 264)
+      (glinting #f)
+    )
+    (mrbomb
+      (z-pos 50)
+      (direction "left")
+      (x 1029)
+      (y 1864)
+      (glinting #f)
+    )
+    (mrbomb
+      (z-pos 50)
+      (direction "left")
+      (x 2213)
+      (y 2504)
+      (glinting #f)
+    )
+    (mrbomb
+      (z-pos 50)
+      (x 3685)
+      (y 1416)
+      (glinting #f)
+    )
+    (mrtree
+      (z-pos 50)
+      (x 1280)
+      (y 670)
+      (glinting #f)
+    )
+    (mrtree
+      (z-pos 50)
+      (direction "left")
+      (x 2272)
+      (y 222)
+      (glinting #f)
+    )
+    (mrtree
+      (z-pos 50)
+      (direction "left")
+      (x 2592)
+      (y 1310)
+      (glinting #f)
+    )
+    (mrtree
+      (z-pos 50)
+      (x 3564.28)
+      (y 643.264)
+      (glinting #f)
+    )
+    (mrtree
+      (z-pos 50)
+      (x 896)
+      (y 1374)
+      (glinting #f)
+    )
+    (music
+      (file "music/forest.music")
+    )
+    (path
+      (name "gen1772930204104989814290672")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6080)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989820573088")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6112)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989814493632")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6144)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989798004400")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5472)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989741507456")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5504)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989834992912")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5536)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989834052672")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5568)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989814446064")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5600)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989801143840")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5856)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989797350912")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5888)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989834813872")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5920)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989834819280")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5952)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989798073792")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5376)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989820445424")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5408)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989797422976")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5440)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989822768768")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5216)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989799174880")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5248)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989834838064")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5280)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989834496592")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5312)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989804698960")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5344)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989804600000")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5760)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989822892064")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5792)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989805097056")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5824)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989814399120")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5632)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989733604032")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5664)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989834658816")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5696)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989805122016")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5728)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989822712800")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5984)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989814204384")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6016)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989833782736")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6048)
+          (y -32)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989820418560")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5296)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989805033632")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5232)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989822205600")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5456)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989799175632")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5424)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989814128192")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5392)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989820462160")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5328)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989820305856")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5264)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989740738720")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5360)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989847116448")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5488)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989843190864")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5520)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989834901584")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5552)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989834772480")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5584)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989797157840")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5616)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989822495696")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5648)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989822662528")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5680)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989796928128")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5712)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989814531904")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5744)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989819883584")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5776)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989804977344")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5808)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989843020464")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5840)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989834452304")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5872)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989834066800")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5904)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989820338832")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5936)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989798741584")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6128)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989799186608")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6096)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989814298400")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6064)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989820161120")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6032)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989797427264")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6000)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989800983264")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5968)
+          (y -48)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989823040064")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6688)
+          (y 2096)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989822979424")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6720)
+          (y 2096)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989801106624")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6784)
+          (y 2096)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989804676720")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6816)
+          (y 2096)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989814387952")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5920)
+          (y 2096)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989798465728")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5952)
+          (y 2096)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989813083632")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6016)
+          (y 2096)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989834798144")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 6048)
+          (y 2096)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989798538720")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 1984)
+          (y 1568)
+          (time 3)
+        )
+        (node
+          (x 1984)
+          (y 1152)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989847122704")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 1856)
+          (y 736)
+          (time 3)
+        )
+        (node
+          (x 1856)
+          (y 1152)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989814446576")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 896)
+          (y 736)
+          (time 2)
+        )
+        (node
+          (x 896)
+          (y 288)
+          (time 2)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989805425888")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 5888)
+          (y 2128)
+          (time 8)
+        )
+        (node
+          (x 6752)
+          (y 2128)
+          (time 8)
+        )
+      )
+    )
+    (path
+      (name "gen1772930204104989819886400")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 4448)
+          (y 512)
+          (time 10)
+        )
+        (node
+          (x 6496)
+          (y 512)
+          (time 10)
+        )
+      )
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen1772930204104989798538720")
+      (sprite "images/objects/platforms/big.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen1772930204104989847122704")
+      (sprite "images/objects/platforms/big.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen1772930204104989814446576")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen1772930204104989805425888")
+      (sprite "images/objects/platforms/big.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (path-ref "gen1772930204104989819886400")
+    )
+    (powerup
+      (z-pos 50)
+      (script "add_key(\"wood\");
+Tux.deactivate();
+wait(0.5);
+Tux.do_cheer();
+end_level();")
+      (sprite "images/objects/keys/key_wood.sprite")
+      (x 8000)
+      (y 1344)
+    )
+    (secretarea
+      (width 111.196)
+      (height 167.7644)
+      (x 680.5371)
+      (y 1021.205)
+    )
+    (secretarea
+      (width 180.4922)
+      (height 194.6346)
+      (x 7076.682)
+      (y 1260.834)
+    )
+    (short_fuse
+      (z-pos 50)
+      (direction "left")
+      (x 5929)
+      (y 1442)
+      (glinting #f)
+    )
+    (short_fuse
+      (z-pos 50)
+      (direction "left")
+      (x 6089)
+      (y 1442)
+      (glinting #f)
+    )
+    (short_fuse
+      (z-pos 50)
+      (direction "left")
+      (x 6409)
+      (y 1442)
+      (glinting #f)
+    )
+    (short_fuse
+      (z-pos 50)
+      (direction "right")
+      (x 4960)
+      (y 1248)
+      (glinting #f)
+    )
+    (short_fuse
+      (z-pos 50)
+      (direction "right")
+      (x 5056)
+      (y 1248)
+      (glinting #f)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 1306)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 256)
+      (height 100)
+      (tiles -43 0 307 308 344 305 347 -2 305 350 -2 305 347 -3 305 -10 0 -3 305 352 -2 305 347 305 343 -5 308 309 -24 0 307 308 344 305 350 305 -3 347 -2 305 350 -2 305 -11 0 -4 305 350 305 347 343 -5 308 309 -14 0 307 308 344 352 350 305 347 -5 305 1145 -8 0 1148 -6 305 347 352 350 343 308 309 -8 0 307 308 344 305 350 -2 305 347 -3 305 347 305 -7 0 305 352 347 -3 305 347 343 308 309 -70 0 307 -3 308 344 305 347 -2 305 350 -2 305 -10 0 -3 305 347 305 343 -2 308 309 -32 0 307 -3 308 344 305 352 -5 305 -11 0 -4 305 343 -2 308 309 -22 0 307 -3 308 -2 344 347 350 -2 305 347 -8 0 305 347 305 347 305 350 343 -3 308 309 -12 0 307 -3 308 344 305 350 -4 305 -7 0 305 347 305 312 343 -2 308 309 -76 0 307 -5 308 344 305 -10 0 -2 305 343 -2 308 309 -39 0 307 -5 308 344 305 -11 0 305 343 -2 308 309 -29 0 307 -3 308 344 312 305 -8 0 -2 305 352 343 -2 308 309 -20 0 307 -6 308 -7 0 305 343 -2 308 309 -85 0 307 305 -10 0 305 308 309 -48 0 307 305 -11 0 308 309 -36 0 307 344 305 -8 0 305 350 343 309 -37 0 308 309 -203 0 307 308 -8 0 -2 308 309 -122 0 80 -241 0 80 -13 0 79 -241 0 79 -3 0 80 -6 0 80 -2 0 79 0 1628 1629 -20 0 141 142 -34 0 80 -181 0 79 -3 0 79 -6 0 79 -2 0 79 0 1630 1631 -20 0 143 144 -34 0 79 -181 0 79 -3 0 79 -6 0 79 -9 0 1146 -11 0 -6 305 -35 0 79 -9 0 1146 -171 0 1348 -3 0 1348 -6 0 1348 -2 0 1348 -18 0 -4 305 312 306 -35 0 1348 -181 0 79 -3 0 79 -6 0 79 -2 0 79 -18 0 -2 305 350 343 308 309 -35 0 79 -181 0 79 -3 0 79 -6 0 79 -2 0 79 -18 0 343 -2 308 309 -37 0 79 -181 0 79 -3 0 79 -6 0 79 -2 0 79 -18 0 309 -40 0 79 -181 0 79 -3 0 79 -6 0 79 -2 0 79 -11 0 80 -47 0 79 -26 0 141 142 -72 0 1608 1609 -79 0 79 -3 0 79 -6 0 79 -2 0 79 -8 0 80 -2 0 79 -47 0 79 -26 0 143 144 -72 0 1610 1611 -79 0 79 -3 0 79 -6 0 1348 -2 0 1348 -8 0 79 -2 0 79 -47 0 79 -21 0 -6 305 -154 0 79 -3 0 79 -6 0 79 -2 0 79 -7 0 1720 1722 -2 1719 1722 -4 1719 1718 -42 0 79 -21 0 305 350 305 347 312 306 -72 0 304 305 347 -3 305 -76 0 79 -3 0 79 -6 0 79 -2 0 79 -8 0 79 -2 0 79 -47 0 79 -21 0 -2 305 347 343 308 309 -72 0 307 308 344 312 -2 305 -76 0 79 -3 0 79 -6 0 79 -2 0 79 -8 0 79 -2 0 79 -47 0 79 -21 0 343 -2 308 309 -76 0 307 308 309 305 -76 0 79 -3 0 79 -6 0 79 -2 0 79 -8 0 79 -2 0 79 -47 0 79 -21 0 309 -157 0 1620 1621 79 -3 0 79 -6 0 79 -2 0 79 -8 0 79 -2 0 79 -43 0 80 -3 0 79 -179 0 1622 1623 79 -3 0 1349 -6 0 1349 -2 0 1349 -8 0 1349 -2 0 1349 -43 0 79 -3 0 1349 -181 0 79 -19 0 1145 1146 0 79 -2 0 79 -33 0 85 86 87 88 -6 0 79 0 -12 305 1146 -39 0 85 86 87 88 -43 0 85 86 87 88 -40 0 85 86 87 88 -3 0 85 86 87 88 -30 0 1348 -22 0 79 -2 0 79 -33 0 89 90 91 92 -6 0 1348 0 304 305 347 305 312 -2 305 347 305 347 -2 305 88 -39 0 89 90 91 92 -43 0 89 90 91 92 -40 0 89 90 91 92 -3 0 89 90 91 92 -14 0 85 86 87 88 -12 0 79 -22 0 79 -2 0 79 -11 0 85 86 87 88 -28 0 79 0 307 -2 308 344 305 350 305 350 347 305 350 305 92 -17 0 85 86 87 88 -43 0 85 86 87 88 -40 0 85 86 87 88 -43 0 89 90 91 92 -12 0 79 -22 0 79 -2 0 79 -11 0 89 90 91 92 -28 0 79 -4 0 307 -2 308 344 305 347 352 -2 305 -18 0 89 90 91 92 -43 0 89 90 91 92 -40 0 89 90 91 92 -59 0 79 -10 0 85 86 87 88 -8 0 79 -2 0 79 80 -42 0 79 -7 0 304 347 305 350 347 305 -172 0 79 -10 0 89 90 91 92 -8 0 79 -2 0 -2 79 -2 0 80 -39 0 79 -7 0 307 344 347 305 347 305 -150 0 1073 1074 1075 -19 0 79 -22 0 79 -2 0 -2 79 -2 0 79 -9 0 1073 1074 1075 -27 0 79 -8 0 307 344 350 -2 305 -73 0 1073 1074 1075 -74 0 1081 1082 1083 1084 -18 0 79 -22 0 79 -2 0 79 2003 -2 1719 1722 1718 -8 0 1081 1082 1083 1084 -26 0 79 -9 0 307 -3 308 305 -72 0 1081 1082 1083 1084 -72 0 1088 1089 1090 1091 1092 1093 -17 0 79 -22 0 79 -2 0 -2 79 -2 0 79 -8 0 1088 1089 1090 1091 1092 1093 -25 0 79 -13 0 305 -71 0 1088 1089 1090 1091 1092 1093 -70 0 1095 1096 1097 1098 1099 1100 1101 -17 0 79 -22 0 79 -2 0 -2 79 -2 0 79 -7 0 1095 1096 1097 1098 1099 1100 1101 -25 0 79 -13 0 305 -16 0 1168 1169 1170 -51 0 1095 1096 1097 1098 1099 1100 1101 -70 0 1103 1104 1105 1106 1107 1108 1109 1110 -11 0 1168 1169 1170 -2 0 79 -22 0 79 -2 0 -2 79 -2 0 79 -7 0 1103 1104 1105 1106 1107 1108 1109 1110 -24 0 79 -13 0 305 -16 0 1174 1175 1176 1177 -50 0 1103 1104 1105 1106 1107 1108 1109 1110 -2 0 1168 1169 1170 -64 0 1111 1112 1113 1114 1115 1116 1117 1118 -11 0 1174 1175 1176 1177 0 79 -22 0 79 -2 0 -2 79 -2 0 79 -4 0 1608 1609 0 1111 1112 1113 1114 1115 1116 1117 1118 -24 0 79 -29 0 1179 1180 1181 1182 1183 -50 0 1111 1112 1113 1114 1115 1116 1117 1118 -2 0 1174 1175 1176 1177 -63 0 1103 1104 1105 1106 1107 1108 1109 1110 80 -9 0 1179 1180 1181 1182 1183 0 79 -22 0 79 -2 0 79 1349 -2 0 1349 -4 0 1610 1611 0 1103 1104 1105 1106 1107 1108 1109 1110 -24 0 79 -29 0 1185 1186 1187 1188 1189 1190 -49 0 1103 1104 1105 1106 1107 1108 1109 1110 0 1179 1180 1181 1182 1183 -63 0 1111 1112 1113 1114 1115 1116 1117 1118 79 -9 0 1185 1186 1187 1188 1189 1190 79 -22 0 79 -2 0 -2 79 -2 0 79 -7 0 1111 1112 1113 1114 1115 1116 1117 1118 -24 0 1349 -29 0 1191 1192 1193 1194 1195 1196 -49 0 1111 1112 1113 1114 1115 1116 1117 1118 0 1185 1186 1187 1188 1189 1190 -62 0 1119 1120 1121 1122 1123 1124 1125 1126 79 -9 0 1191 1192 1193 1194 1195 1196 79 -22 0 1348 -2 0 1348 79 -2 0 79 -2 0 -2 305 312 306 0 1119 1120 1121 1122 1123 1124 1125 1126 -5 0 402 403 404 405 -45 0 1197 1198 1199 1200 1201 1202 -49 0 1119 1120 1121 1122 1123 1124 1125 1126 0 1191 1192 1193 1194 1195 1196 -9 0 1723 -52 0 1127 1128 1129 1130 1131 1132 1133 1134 1348 -9 0 1197 1198 1199 1200 1201 1202 1348 -22 0 79 -2 0 -2 79 -2 0 79 -2 0 305 343 308 309 0 1127 1128 1129 1130 1131 1132 1133 1134 -5 0 406 407 408 409 -45 0 1203 1204 1205 1206 1207 1208 -49 0 1127 1128 1129 1130 1131 1132 1133 1134 0 1197 1198 1199 1200 1201 1202 -64 0 1137 1138 1139 1140 -2 0 79 -9 0 1203 1204 1205 1206 1207 1208 79 -15 0 402 403 404 405 -2 0 1720 1722 -2 1719 2002 79 -2 0 79 -2 0 308 309 -5 0 1137 1138 1139 1140 -5 0 402 403 428 429 412 413 -18 0 402 403 404 405 -23 0 1209 1210 1211 1212 1213 1214 -9 0 1003 -9 0 1000 -21 0 402 403 404 405 -6 0 1137 1138 1139 1140 -3 0 1203 1204 1205 1206 1207 1208 -64 0 1145 1146 1147 1148 -2 0 79 -9 0 1209 1210 1211 1212 1213 1214 79 -15 0 406 407 408 409 -3 0 79 -2 0 -2 79 -2 0 79 -9 0 1145 1146 1147 1148 -5 0 406 407 432 433 416 417 -14 0 402 403 404 405 406 407 408 409 -25 0 1217 1218 -11 0 1006 -9 0 1006 0 402 403 404 405 -16 0 406 407 408 409 -6 0 1145 1146 1147 1148 -3 0 1209 1210 1211 1212 1213 1214 -54 0 402 403 404 405 -6 0 1137 1138 1139 1140 1141 0 79 -10 0 2045 1219 1220 -2 0 79 -15 0 410 411 420 421 -3 0 79 -2 0 1347 79 -2 0 79 -4 0 402 403 404 405 0 1137 1138 1139 1140 1141 -4 0 410 411 452 453 420 421 -14 0 406 407 408 409 410 411 412 413 -25 0 1223 1224 -23 0 406 407 408 409 -16 0 410 411 426 427 404 405 -4 0 1137 1138 1139 1140 1141 -4 0 1217 1218 -56 0 406 407 408 409 402 403 404 405 -2 0 1145 1146 1147 1148 -2 0 79 -10 0 2046 1225 1226 -2 0 79 -2 0 402 403 404 405 -9 0 414 415 424 425 -3 0 1347 -3 0 79 -2 0 79 -4 0 406 407 408 409 0 1145 1146 1147 1148 -5 0 414 415 456 457 424 425 -14 0 410 411 412 413 414 415 416 402 403 404 405 -21 0 1228 1229 1230 -28 0 360 -14 0 414 415 430 431 408 409 402 403 404 405 1145 1146 1147 1148 -5 0 1223 1224 -3 0 1600 1601 -49 0 402 403 428 429 420 421 406 407 408 409 -2 0 1153 1154 1155 1156 -2 0 79 -10 0 1228 1229 1230 -2 0 79 -2 0 406 407 408 409 -5 0 1616 1617 -2 0 410 411 412 413 -7 0 79 -2 0 79 -4 0 410 411 420 421 0 1153 1154 1155 1156 -25 0 414 415 416 417 -3 0 406 407 408 409 -18 0 1612 1613 0 1234 1235 1236 -32 0 1153 -10 0 410 411 442 443 420 421 406 407 408 409 1153 1154 1155 1156 -4 0 1228 1229 1230 -3 0 1602 1603 0 402 403 404 405 1153 -43 0 406 407 432 433 424 425 410 411 412 413 -2 0 1161 1162 1163 1164 -2 0 1349 -2 0 -3 1002 -5 0 1234 1235 1236 -2 0 1349 -2 0 418 419 412 413 0 -3 1351 0 1618 1619 -2 0 414 415 416 417 -2 1002 -5 0 79 -2 0 79 0 -2 1002 0 414 415 424 425 0 1161 1162 1163 1164 -32 0 410 411 412 413 -2 0 360 -2 1002 -10 0 -2 1002 0 1614 1615 -2 0 405 -33 0 1161 -8 0 1038 360 414 415 446 447 424 425 410 411 412 413 1161 1162 1163 1164 -4 0 1234 1235 1236 -2 0 1000 -3 0 406 407 408 409 1161 -7 0 1002 -25 0 -9 1002 -7 0 414 415 416 417 -44 0 1009 -6 0 79 -2 0 79 -2 0 1009 -42 0 414 415 416 417 -3 0 1009 -12 0 1009 -2 0 406 -2 0 409 -33 0 1009 -8 0 1009 -7 0 414 415 416 417 -13 0 1006 -6 0 409 1009 -7 0 1009 -96 0 79 -2 0 79 -252 0 79 -2 0 79 -252 0 79 -2 0 79 -252 0 79 -2 0 79 -252 0 1348 -2 0 1348 -252 0 2003 -2 1719 1722 1719 -247 0 79 -3 0 1347 -2 0 79 -220 0 323 324 -26 0 79 -6 0 1347 -2 0 323 324 -216 0 325 326 -26 0 79 -9 0 325 326 -216 0 327 328 -26 0 79 -9 0 327 328 -154 0 2012 -61 0 329 330 -26 0 79 -9 0 329 330 -154 0 2013 -89 0 79 -2 0 79 -134 0 323 324 -26 0 2012 -66 0 322 -22 0 79 -2 0 -2 79 -133 0 325 326 -26 0 2012 -227 0 327 328 -26 0 2012 -4 0 360 -222 0 329 330 -26 0 2013 -254 0 1009 -352 0 402 403 404 405 -252 0 406 407 408 409 -366 0 322 -38 0 322 -236 0 1348 -255 0 1347 -653 0 322 -252 0 1612 1613 -254 0 1614 1615 -1764 0 402 403 404 405 -252 0 406 407 408 409 0 -5 1725 -499 0 322 -230 0 402 403 404 405 -252 0 406 407 408 409 -265 0 -12 1725 -3788 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 256)
+      (height 100)
+      (tiles -55 0 1137 1138 -10 0 1147 1148 -49 0 1137 1138 -10 0 1147 1148 -27 0 -13 2817 1146 -6 48 1147 -12 2817 1311 0 213 -18 0 1137 1138 -5 0 1147 1148 -89 0 1145 1146 -10 0 1139 1140 -49 0 1145 1146 -10 0 1139 1140 -39 0 1137 1138 -6 0 1139 1140 -11 0 2820 0 2819 -18 0 1145 1146 -5 0 1139 1140 -89 0 1137 1138 -10 0 1147 1148 -49 0 1137 1138 -10 0 1147 1148 -39 0 1145 1146 -6 0 1147 1148 -11 0 2820 0 2819 -18 0 1137 1138 -5 0 1147 1148 -89 0 1145 1146 -10 0 1139 1140 -49 0 1145 1146 -10 0 1139 1140 -26 0 112 -12 0 1137 1138 -6 0 1139 1140 -32 0 1145 1146 -5 0 1139 1140 -89 0 1137 1138 -10 0 1147 1148 -49 0 1137 1138 -10 0 1147 1148 -39 0 1145 1146 -6 0 1147 1148 -32 0 1137 1138 -5 0 1147 1148 -90 0 324 -10 0 323 -51 0 324 -10 0 1139 1140 -39 0 1137 1138 -6 0 1139 1140 -32 0 1145 1146 -5 0 1139 1140 -90 0 326 -10 0 325 -51 0 326 -10 0 1147 1148 -39 0 1145 1146 -6 0 1147 1148 -32 0 1137 1138 -5 0 1147 1148 -90 0 328 -10 0 327 -51 0 328 -10 0 1139 1140 -26 0 112 -12 0 1137 1138 -6 0 1139 1140 -32 0 1145 1146 -5 0 1139 1140 -84 0 1000 1001 -2 1002 1003 0 330 -10 0 329 -3 0 1000 1001 1002 1003 -55 0 1147 1148 -39 0 1145 1146 -6 0 1147 1148 -32 0 1137 1138 -5 0 1147 1148 -66 0 27 -8 28 29 -3 0 27 -11 28 29 -8 0 27 -7 28 29 -33 0 27 -11 28 29 -9 0 1139 1140 -39 0 1137 1138 -6 0 1139 1140 -32 0 1145 1146 -5 0 1139 1140 -89 0 1137 1138 -10 0 1147 1148 -7 0 47 -29 0 47 -11 0 1145 1146 -10 0 1147 1148 -39 0 1145 1146 -6 0 1147 1148 -32 0 1137 1138 -5 0 1147 1148 -89 0 1145 1146 -10 0 1139 1140 -10 0 47 -23 0 47 -14 0 1137 1138 -10 0 1139 1140 -2 0 -2 83 -22 0 211 -12 0 1137 1138 -6 0 1139 1140 -12 0 211 -19 0 1145 1146 -5 0 1139 1140 -82 0 -4 44 -3 0 1137 1138 -10 0 1147 1148 -49 0 1145 1146 -10 0 323 -27 0 212 -12 0 1145 1146 -6 0 1147 1148 -12 0 212 -20 0 324 -5 0 1147 1148 -82 0 -4 44 -3 0 1145 1146 -10 0 1139 1140 -14 0 47 -15 0 47 -18 0 1137 1138 -10 0 325 -27 0 212 -34 0 212 -20 0 326 -5 0 1139 1140 -89 0 1137 1138 -10 0 1147 1148 -19 0 47 -5 0 47 -23 0 1145 1146 -10 0 327 -27 0 213 -34 0 213 -20 0 328 -5 0 1147 1148 -77 0 27 -8 28 29 -2 0 1145 1146 -10 0 1139 1140 -21 0 -3 44 -25 0 1137 1138 -13 0 1000 1001 -2 1002 1003 -2 0 -2 44 -2 0 -2 44 -55 0 -2 44 0 -2 44 -2 0 1000 1001 1002 1003 -8 0 1139 1140 -89 0 1137 1138 -10 0 1147 1148 -42 0 -4 44 -3 0 1145 1146 -9 0 27 -8 28 29 -68 0 27 -7 28 29 -3 0 44 1147 1148 -90 0 1146 -10 0 1139 1140 -49 0 1137 1138 -4 0 44 -5 0 1139 1140 -44 0 44 -36 0 1137 1138 -5 0 1139 1140 -80 0 83 102 -2 83 -5 0 1137 1138 -10 0 1147 1148 -42 0 83 102 -2 83 -3 0 1145 1146 -10 0 1147 1148 -81 0 1145 1146 -4 0 47 1147 1148 -90 0 324 -10 0 1139 1140 -50 0 324 -4 0 47 -5 0 1139 1140 -43 0 44 -37 0 1137 1138 -5 0 1139 1140 -90 0 326 -10 0 1147 1148 -50 0 326 -7 0 44 -2 0 1147 1148 -43 0 44 -16 0 -8 2153 -13 0 1145 1146 44 -4 0 1147 1148 -90 0 328 -10 0 1139 1140 -50 0 328 -10 0 1139 1140 -81 0 1137 1138 -5 0 1139 1140 -67 0 1000 1003 -32 0 1147 1148 -37 0 1000 1001 1002 1003 -17 0 47 -2 0 1147 1148 -40 0 1726 -3 0 44 -2 0 1726 -33 0 1145 1146 47 -4 0 1147 1148 -66 0 27 -24 28 29 -9 0 1139 1140 -35 0 27 -15 28 29 -3 0 44 -5 0 1139 1140 -39 0 1137 1138 -3 0 44 -2 0 1139 1140 -32 0 1137 1138 -5 0 1139 1140 -89 0 1145 1146 -10 0 1147 1148 -49 0 1145 1146 -10 0 1147 1148 -39 0 1145 1146 -3 0 44 -2 0 1147 1148 -32 0 1145 1146 -4 0 44 1147 1148 -89 0 298 1138 -10 0 1139 1140 -49 0 1137 1138 -4 0 47 -5 0 1139 1140 -39 0 1137 1138 -6 0 1139 1140 -32 0 1137 1138 -5 0 1139 1140 -89 0 1145 1146 -10 0 1147 1148 -49 0 1145 1146 0 44 -8 0 1147 1148 -39 0 1145 1146 -2 0 44 -3 0 1147 1148 -32 0 1145 1146 -4 0 47 1147 1148 -89 0 1137 1138 -10 0 1139 1140 -49 0 1137 1138 -10 0 1139 1140 -39 0 1137 1138 -2 0 44 -3 0 1139 1140 -32 0 1137 1138 -5 0 1139 1140 -89 0 1145 1146 -10 0 1147 1148 -49 0 1145 1146 0 47 -8 0 1147 1148 -39 0 1145 1146 -2 0 44 -3 0 1147 1148 -32 0 1145 1146 44 -4 0 1147 1148 -89 0 1137 1138 -10 0 1139 1140 -49 0 1137 1138 -4 0 44 -5 0 1139 1140 -39 0 1137 1138 -6 0 1139 1140 -32 0 1137 1138 -5 0 1139 1140 -89 0 1145 1146 -10 0 1147 1148 -49 0 1145 1146 -10 0 1147 1148 -39 0 1145 1146 -3 0 44 -2 0 1147 1148 -32 0 1145 1146 47 -4 0 1147 1148 -89 0 1137 1138 -10 0 1139 1140 -49 0 1137 1138 -4 0 47 -5 0 1139 1140 -39 0 1137 1138 -3 0 44 -2 0 1139 1140 -32 0 1137 1138 -5 0 1139 1140 -89 0 1145 1146 -10 0 323 -50 0 1145 1146 -7 0 44 -2 0 1147 1148 -39 0 1145 1146 -3 0 44 -2 0 1147 1148 -32 0 1145 1146 -4 0 44 1147 1148 -56 0 128 83 -31 0 298 1138 -10 0 325 -50 0 1137 1138 -10 0 1139 1140 -39 0 1137 1138 -6 0 1139 1140 -32 0 1137 1138 -4 0 47 1139 1140 -89 0 1145 1146 -10 0 327 -50 0 1145 1146 -7 0 47 -2 0 1147 1148 -39 0 1145 1146 -2 0 44 -3 0 1147 1148 -32 0 1145 1146 -5 0 1147 1148 -89 0 1137 1138 -10 0 329 0 1000 1002 1003 -46 0 1137 1138 -4 0 44 -5 0 1139 1140 -39 0 1137 1138 -2 0 44 -3 0 1139 1140 -33 0 324 -5 0 1139 1140 -55 0 1000 1001 1002 1003 -30 0 1145 1146 -9 0 27 -5 28 29 -19 0 1000 -12 1002 1003 -12 0 1145 1146 -10 0 1147 1148 -39 0 1145 1146 -2 0 44 -3 0 1147 1148 -33 0 326 -5 0 1147 1148 -52 0 27 -17 28 29 -18 0 1137 1138 -10 0 1147 1148 -23 0 1004 -10 1006 1005 1006 1007 -12 0 1137 1138 -4 0 47 -5 0 1139 1140 -13 0 1000 1001 -3 1002 1003 -20 0 1137 1138 -6 0 1139 1140 -33 0 328 1723 1726 -3 0 1139 1140 -89 0 1145 1146 -10 0 1139 1140 -23 0 1008 -10 1013 -2 1009 1011 -9 0 -2 44 0 1145 1146 -10 0 1147 1148 -13 0 1004 1005 -3 1006 1007 -9 0 1000 1001 1002 1003 -7 0 1145 1146 -3 0 44 -2 0 1147 1148 -2 0 -4 44 -26 0 1145 1146 1008 1820 1724 1726 0 1147 1148 -84 0 211 -4 0 1137 1138 -10 0 1147 1148 -18 0 1000 -4 1002 1034 -12 1013 1015 -12 0 1137 1138 1723 1726 -8 0 323 -14 0 1008 -2 1009 -2 1013 1015 -9 0 1004 1005 1006 1007 -7 0 1137 1138 -3 0 44 -2 0 1139 1140 -32 0 1137 1138 1012 -2 1009 1820 1726 1139 1140 -84 0 212 -4 0 1145 1146 -10 0 1139 1140 -5 0 83 102 -2 83 -9 0 1004 -4 1006 1040 -12 1013 1015 -9 0 -2 83 0 1145 1146 1012 1820 -3 1725 1726 -4 0 325 -14 0 1008 1009 -3 1013 1015 -9 48 1008 -2 1013 1015 -7 0 1145 1146 -3 0 44 -2 0 1147 1148 -2 0 -2 83 102 83 -22 0 -4 83 1145 1146 1008 -3 1009 1011 1147 1148 0 128 -81 0 83 212 102 -3 0 298 1138 -10 0 1139 1140 -18 0 1008 1009 -16 1013 1035 -6 1002 1003 -5 0 1137 1138 1008 -4 1009 1820 1725 1726 -2 0 327 -8 0 1000 1001 -2 1002 1001 1002 1034 -3 1013 -6 1009 -8 1013 1035 -2 1002 1003 -4 0 1137 1138 -6 0 1139 1140 -32 0 1137 1138 1012 -3 1009 1015 1139 1140 -84 0 212 -4 0 1145 1146 -10 0 1147 1148 -11 0 1000 1001 -5 1002 1034 1009 -16 1013 1041 -4 1006 1005 1006 1007 -5 0 1145 1146 1012 -6 1009 1820 1725 1726 -9 0 1004 1005 -2 1006 1005 1006 1040 -17 1013 1041 -2 1006 1037 1001 -2 1002 1003 1145 1146 -2 0 44 -3 0 1147 1148 -32 0 1145 1146 1008 -3 1009 1011 1147 1148 -57 0 317 318 -16 0 211 -8 0 212 -4 0 1153 1154 -10 0 1155 1156 -11 0 1004 1005 -5 1006 1040 -24 1009 1011 -5 0 1153 1154 1008 -8 1009 1011 1155 1156 -4 0 1000 -2 1002 1034 -26 1009 1041 1005 -2 1006 1007 0 1154 -2 0 44 -3 0 1155 1156 -24 0 1000 1002 1003 -6 0 1154 1012 -3 1009 1015 1155 1156 -34 0 -23 1002 319 320 -16 1002 212 1003 -3 0 1000 -3 1002 212 -4 1002 1161 1162 -10 0 1163 1164 -11 1002 1034 -31 1009 1035 -5 1002 1161 1162 1012 -8 1009 1015 1163 1164 -4 1002 1036 -2 1006 1040 -30 1009 1035 0 1162 -2 0 44 -3 0 1163 1164 -24 0 1004 1005 1037 -5 1002 0 1162 1008 -3 1009 1011 1163 1164 -5 1002 1003 -14 0 1000 1001 1002 -2 1001 -9 0 -42 1006 1007 -3 0 1004 -8 1006 1007 1011 -10 0 1008 1004 -11 1006 1040 -31 1009 1041 -5 1006 1007 -12 1009 1004 -4 1006 1040 -33 1009 1041 1007 1011 -6 0 1008 1044 -24 48 1008 1009 1041 1006 1005 1006 1005 1006 1007 -7 1009 1004 1005 -3 1006 1005 1007 -4 0 112 -8 0 1000 1036 1005 1006 -2 1005 -9 1006 -42 1009 1011 -3 0 1012 -9 1009 1015 -10 0 1008 -104 1009 1011 -3 0 44 -2 0 1008 -47 1009 1011 -13 0 1004 1040 -55 1009 1011 -3 0 1012 -9 1009 1015 -9 0 1723 1817 -104 1009 1015 -3 0 44 -2 0 1012 -46 1009 1013 1011 -13 0 1008 -56 1009 1019 -3 0 1012 -9 1009 1011 -9 0 1817 -105 1009 1011 -6 0 1008 -47 1009 1015 -12 0 1000 1034 -55 1009 1019 -4 0 1012 -9 1009 1015 -9 0 1008 -105 1009 1015 -2 0 44 -3 0 1008 -47 1009 1011 -4 0 112 -6 0 1000 1036 1040 -54 1009 1019 -5 0 1012 -9 1009 1820 1726 -8 0 1008 -105 1009 1011 -6 0 1008 -35 1009 1014 1013 -10 1009 1019 -11 0 1004 1040 -52 1009 -2 1018 1019 -6 0 1012 -10 1009 1820 1726 -7 0 1008 -105 1009 1015 -6 0 1008 -46 1009 1011 -12 0 1008 -51 1009 1018 1019 -9 0 1008 -11 1009 1820 1726 -6 0 1016 -105 1009 1011 -6 0 1008 -46 1009 1019 -11 0 1000 1034 -47 1009 -3 1018 1019 -10 0 1723 1817 -12 1009 1820 1726 -6 0 1016 1018 -103 1009 1015 -6 0 1008 -45 1009 1011 -6 0 112 -4 0 1000 1036 1040 -45 1009 1018 1019 -13 0 1723 1817 -14 1009 1820 -8 0 1016 1018 -101 1009 1011 -6 0 1008 -45 1009 1019 -10 0 1000 1036 1040 -45 1009 1011 -13 0 1723 1725 1817 -15 1009 1011 -10 0 1016 1018 -98 1009 1014 1015 -6 0 1008 -32 1009 1018 1017 -3 1018 -5 1009 -2 1018 1019 -11 0 1004 1040 -46 1009 1015 -12 0 1723 1817 -17 1009 1820 1725 -11 0 1016 -98 1009 1011 -6 0 1008 -31 1009 1011 -5 0 1016 -3 1018 1019 -9 0 1000 -4 1002 1034 -47 1009 1820 1726 -11 0 1817 -19 1009 1820 -3 1725 -9 0 1016 -96 1009 1014 1015 -6 0 1016 1018 -16 1009 1018 -2 1017 1018 1017 1018 1017 1018 -6 1009 1011 -18 0 1000 1036 -4 1006 1040 -48 1009 1820 -6 1725 1726 -4 0 1008 -22 1009 1820 1725 -9 0 1008 -96 1009 1011 -8 0 1016 1017 1018 -10 1009 -2 1018 1019 -8 0 1016 -5 1009 1019 -18 0 1004 1040 -60 1009 1820 -4 0 1012 -23 1009 1011 -9 0 1008 -95 1009 1014 1820 1726 -10 0 1016 1018 1017 1018 -4 1009 1017 1019 -12 0 1016 1009 1013 1009 1019 -17 0 1000 1001 1034 -61 1009 1011 -4 0 1008 -23 1009 1011 -9 0 1008 -97 1009 1820 -14 0 1016 1017 1018 1019 -15 0 1016 1017 1019 -11 0 1723 -3 1725 -3 1002 1036 1005 1040 -61 1009 1011 -4 0 1012 -23 1009 1011 -4 0 83 -4 0 1008 -97 1009 1820 1726 -45 0 1723 1817 1009 1004 -2 1005 1006 1005 1040 -63 1009 1011 -4 0 1012 -23 1009 1015 -9 0 1016 1018 -3 1009 1014 -93 1009 1820 -44 0 1723 1817 -71 1009 1011 -4 0 1012 -23 1009 1820 1726 -10 0 1016 -96 1009 1820 1726 -43 0 1817 -72 1009 1011 -4 0 1012 -24 1009 1820 1725 1726 -9 0 1016 -96 1009 1820 1725 1726 -20 0 295 -19 0 1723 1817 -7 1009 1013 -64 1009 1011 -4 0 1012 -26 1009 1820 1726 -9 0 1016 -97 1009 1820 -5 1725 1726 -13 0 298 3170 296 -15 0 1723 -2 1725 1817 -11 1009 1014 -61 1009 1011 -4 0 1012 -27 1009 1820 -3 1725 1726 -6 0 1016 -3 1018 -99 1009 1820 -31 0 1008 -76 1009 1011 -4 0 1012 -25 1009 1013 -5 1009 1820 -10 0 1016 -98 1009 1011 -31 0 1008 -15 1009 1014 1009 1014 1009 1014 1009 1014 1009 1014 1009 1014 1009 1014 1009 1014 -46 1009 1011 -4 0 1012 -31 1009 1019 -11 0 1008 -97 1009 1011 -31 0 1008 -76 1009 1011 -4 0 1012 -30 1009 1019 -3 0 102 -8 0 1008 -97 1009 1015 -31 0 1008 -76 1009 1011 -4 0 1012 -19 1009 -3 1017 -7 1009 1015 -12 0 1723 1817 -97 1009 1011 -31 0 1008 -76 1009 1011 -4 0 1012 -18 1009 1015 -3 0 1016 -4 1009 -2 1017 1019 -12 0 1817 -98 1009 1015 -31 0 1008 -76 1009 1019 -4 0 1016 -18 1009 1019 -4 0 1016 -2 1017 1019 -10 0 1723 1724 -3 1725 1817 -98 1009 1011 -31 0 1008 -75 1009 1019 -6 0 1016 -5 1009 -3 1013 -2 1018 1017 -3 1018 -2 1017 1019 -19 0 1008 -103 1009 1015 -31 0 1008 -74 1009 1019 -8 0 1016 -4 1009 -2 1013 1015 -25 0 1723 -2 1725 1817 -103 1009 1011 -31 0 1008 -70 1009 1018 1017 1018 1019 -10 0 1016 1017 -2 1009 1013 1017 1019 -24 0 1723 1817 -106 1009 1015 -31 0 1008 -69 1009 1011 -16 0 1016 1017 1019 -26 0 1817 -107 1009 1011 -31 0 1008 -69 1009 1019 -44 0 1723 1817 -107 1009 1015 -31 0 1008 -68 1009 1011 -35 0 1723 1724 -8 1725 1817 -108 1009 1011 -31 0 1008 -68 1009 1011 -28 0 1723 -2 1725 1726 -3 0 1817 -118 1009 1015 -31 0 1008 -68 1009 1019 -26 0 1723 1725 1817 -2 1009 1820 1799 1796 1800 1817 -118 1009 1011 -31 0 1008 -67 1009 1011 -25 0 1723 1725 1817 -127 1009 1011 -31 0 1012 1013 -66 1009 1820 1726 -23 0 1723 1817 -129 1009 1011 -31 0 1012 -68 1009 1820 1726 -21 0 1723 1817 -130 1009 1011 -31 0 1012 -69 1009 1820 -10 1725 1726 -4 0 1799 1796 1786 1796 1791 1800 1817 -131 1009 1015 -31 0 1012 -80 1009 1820 1784 1791 1795 1797 1795 -3 1786 1796 1800 1012 -131 1009 1015 -31 0 1012 -223 1009 1015 -31 0 1008 -223 1009 1011 -31 0 1008 -223 1009 1011 -31 0 1012 1013 -222 1009 1011 -31 0 1012 -223 1009 1015 -31 0 1012 -223 1009 1015 -31 0 1012 -223 1009 1015 -31 0 1012 -223 1009 1015 -31 0 1008 -223 1009 1015 -31 0 1008 -223 1009 1015 -31 0 1012 1013 -222 1009 1015 -31 0 1012 -223 1009 1015 -31 0 1012 -223 1009 1015 -31 0 1012 -223 1009 1015 -31 0 1012 -40 1009)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (width 256)
+      (height 100)
+      (tiles -2104 0 330 -62 0 330 -438 0 323 324 -25 0 323 324 -227 0 325 326 -25 0 325 326 -227 0 327 328 -25 0 327 328 -227 0 329 330 -25 0 329 330 -1004 0 1145 -648 0 85 86 87 86 87 86 87 88 -248 0 89 90 91 90 91 90 91 92 -368 0 330 -62 0 330 -703 0 1137 -2047 0 1137 -1259 0 323 324 -254 0 325 326 -254 0 327 328 -254 0 329 330 -18 0 1137 -753 0 1002 -8 0 1002 -163 0 1724 -4104 0 1000 1001 -3 1002 -251 0 1004 -2 1005 1006 1005 -974 0 -5 1725 1726 -31 0 1723 -2 1725 -215 0 -6 1009 1820 -31 0 1008 -3 1009 -220 0 1011 -31 0 1008 -223 0 1011 -31 0 1008 -223 0 1015 -31 0 1008 -223 0 1011 -31 0 1008 -223 0 1015 -31 0 1008 -223 0 1011 -31 0 1008 -223 0 1015 -31 0 1008 -223 0 1011 -31 0 1008 -223 0 1015 -31 0 1008 -223 0 1011 -31 0 1008 -223 0 1015 -31 0 1008 -223 0 1011 -31 0 1008 -223 0 1015 -31 0 1008 -223 0 1011 -31 0 1008 -223 0 1011 -31 0 1012 -223 0 1011 -31 0 1012 -223 0 1011 -31 0 1012 -223 0 1015 -31 0 1012 -223 0 1015 -31 0 1012 -223 0 1015 -31 0 1008 -223 0 1011 -31 0 1008 -223 0 1011 -31 0 1012 -223 0 1011 -31 0 1012 -223 0 1015 -31 0 1012 -223 0 1015 -31 0 1012 -223 0 1015 -31 0 1012 -223 0 1015 -31 0 1008 -223 0 1015 -31 0 1008 -223 0 1015 -31 0 1012 -223 0 1015 -31 0 1012 -223 0 1015 -31 0 1012 -223 0 1015 -31 0 1012 -223 0 1015 -31 0 1012 -40 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -103)
+      (name "CaveBack")
+      (width 256)
+      (height 100)
+      (tiles -56 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -91 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -77 0 2005 -3 0 2010 -9 0 2007 -10 1353 2012 -51 0 2007 -10 1353 2012 -41 0 2007 -6 1353 2012 -34 0 2007 -5 1353 2012 -62 0 -15 1353 2006 -3 1352 2011 -41 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -58 0 -61 1353 -84 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -203 0 2007 -51 1353 2012 -31 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -102)
+      (name "Cover")
+      (width 256)
+      (height 100)
+      (tiles -57 0 1306 -8 0 1305 -53 0 1306 -8 0 1303 -41 0 305 0 1306 -4 0 1305 0 305 -34 0 1304 -3 0 1303 -93 0 1304 -8 0 1303 -53 0 1304 -8 0 1305 -43 0 1304 -4 0 1303 -36 0 1306 -3 0 1305 -93 0 1306 -8 0 1305 -53 0 1306 -8 0 1303 -43 0 1306 -4 0 1305 -36 0 1304 -3 0 1303 -93 0 1304 -8 0 1303 -53 0 1304 -8 0 1305 -43 0 1304 -4 0 1303 -36 0 1306 -3 0 1305 -93 0 1306 -8 0 1305 -53 0 1306 -8 0 1303 -43 0 1306 -4 0 1305 -36 0 1304 -3 0 1303 -165 0 1305 -43 0 1304 -4 0 1303 -36 0 1306 -3 0 1305 -165 0 1303 -43 0 1306 -4 0 1305 -36 0 1304 -3 0 1303 -165 0 1305 -43 0 1304 -4 0 1303 -36 0 1306 -3 0 1305 -165 0 1303 -43 0 1306 -4 0 1305 -36 0 1304 -3 0 1303 -93 0 1304 -62 0 1304 -8 0 1305 -43 0 1304 -4 0 1303 -36 0 1306 -3 0 1305 -93 0 1306 -8 0 1303 -53 0 1306 -8 0 1303 -43 0 1306 -4 0 1305 -36 0 1304 -3 0 1303 -93 0 1304 -8 0 1305 -53 0 1304 -8 0 1305 -43 0 1304 -4 0 1303 -36 0 1306 -3 0 1305 -93 0 1306 -8 0 1303 -53 0 1306 -52 0 1306 -4 0 1305 -40 0 1303 -93 0 1304 -8 0 1305 -53 0 1304 -98 0 1305 -93 0 1306 -8 0 1303 -53 0 1306 -98 0 1303 -93 0 1304 -8 0 1305 -53 0 1304 -98 0 1305 -93 0 1306 -8 0 1303 -53 0 1306 -98 0 1303 -93 0 1304 -8 0 1305 -53 0 1304 -8 0 1303 -85 0 1304 -3 0 1305 -93 0 1306 -8 0 1303 -53 0 1306 -8 0 1305 -85 0 1306 -3 0 1303 -102 0 1305 -62 0 1303 -85 0 1304 -3 0 1305 -102 0 1303 -62 0 1305 -85 0 1306 -3 0 1303 -102 0 1305 -62 0 1303 -85 0 1304 -3 0 1305 -102 0 1303 -62 0 1305 -85 0 1306 -3 0 1303 -102 0 1305 -62 0 1303 -43 0 1304 -4 0 1303 -36 0 1304 -3 0 1305 -93 0 1304 -8 0 1303 -53 0 1304 -8 0 1305 -43 0 1306 -4 0 1305 -36 0 1306 -3 0 1303 -93 0 1306 -8 0 1305 -53 0 1306 -8 0 1303 -43 0 1304 -4 0 1303 -36 0 1304 -3 0 1305 -93 0 1304 -8 0 1303 -53 0 1304 -8 0 1305 -43 0 1306 -4 0 1305 -36 0 1306 -3 0 1303 -93 0 1306 -8 0 1305 -53 0 1306 -8 0 1303 -43 0 1304 -4 0 1303 -36 0 1304 -3 0 1305 -93 0 1304 -8 0 1303 -53 0 1304 -8 0 1305 -43 0 1306 -4 0 1305 -36 0 1306 -3 0 1303 -93 0 1306 -8 0 1305 -53 0 1306 -8 0 1303 -43 0 1304 -4 0 1303 -36 0 1304 -3 0 1305 -93 0 1304 -8 0 1303 -53 0 1304 -8 0 1305 -43 0 1306 -4 0 1305 -36 0 1306 -3 0 1303 -93 0 1306 -8 0 1305 -53 0 1306 -8 0 1303 -43 0 1304 -4 0 1303 -36 0 1304 -3 0 1305 -93 0 1304 -62 0 1304 -8 0 1305 -43 0 1306 -4 0 1305 -36 0 1306 -3 0 1303 -93 0 1306 -62 0 1306 -8 0 1303 -43 0 1304 -4 0 1303 -36 0 1304 -3 0 1305 -93 0 1304 -62 0 1304 -8 0 1305 -43 0 1306 -4 0 1305 -36 0 1306 -3 0 1303 -93 0 1306 -62 0 1306 -8 0 1303 -43 0 1304 -4 0 1303 -40 0 1305 -93 0 1304 -62 0 1304 -8 0 1305 -43 0 1306 -4 0 1305 -40 0 1303 -93 0 1306 -8 0 1303 -53 0 1306 -8 0 1303 -43 0 1304 -4 0 1303 -40 0 1305 -93 0 1304 -8 0 1305 -53 0 1304 -8 0 1305 -43 0 1306 -4 0 1305 -36 0 1304 -3 0 1303 -93 0 1306 -8 0 1303 -53 0 1306 -52 0 1304 -4 0 1303 -36 0 1306 -3 0 1305 -93 0 1304 -8 0 1305 -53 0 1304 -52 0 1306 -4 0 1305 -36 0 1304 -3 0 1303 -93 0 1306 -8 0 1303 -53 0 1306 -52 0 1304 -4 0 1303 -36 0 1306 -3 0 1305 -93 0 1304 -8 0 1305 -53 0 1304 -52 0 1306 -4 0 1305 -36 0 1304 -3 0 1303 -93 0 1306 -8 0 1303 -53 0 1306 -8 0 1303 -43 0 1304 -4 0 1303 -36 0 1306 -3 0 1305 -93 0 1304 -8 0 1305 -53 0 1304 -8 0 1305 -41 0 1001 0 1306 -4 0 1305 0 1038 -32 0 1003 0 1304 -3 0 1303 -208 0 1305 -661 0 1305 1304 -3177 0 1304 -10066 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 99)
+      (name "Water")
+      (width 256)
+      (height 100)
+      (tiles -14303 0 402 403 404 405 -252 0 406 407 408 409 -252 0 410 411 412 413 -252 0 414 415 416 417 -252 0 418 419 420 421 -252 0 422 423 424 425 -1748 0 -33 76 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -223 0 -33 75 -40 0)
+    )
+    (viciousivy
+      (z-pos 50)
+      (x 834)
+      (y 1156)
+      (glinting #f)
+    )
+    (viciousivy
+      (z-pos 50)
+      (direction "left")
+      (x 4226)
+      (y 1412)
+      (glinting #f)
+    )
+    (zeekling
+      (z-pos 50)
+      (direction "left")
+      (x 1658)
+      (y 908)
+      (glinting #f)
+    )
+    (zeekling
+      (z-pos 50)
+      (direction "left")
+      (x 1246)
+      (y 838)
+      (glinting #f)
+    )
+    (zeekling
+      (z-pos 50)
+      (direction "left")
+      (x 3228.779)
+      (y 719.402)
+      (glinting #f)
+    )
+    (zeekling
+      (z-pos 50)
+      (direction "left")
+      (x 3466.772)
+      (y 557.3503)
+      (glinting #f)
+    )
+    (zeekling
+      (z-pos 50)
+      (direction "left")
+      (x 5362.28)
+      (y 791.264)
+      (glinting #f)
+    )
+    (zeekling
+      (z-pos 50)
+      (direction "left")
+      (x 6634.28)
+      (y 785.264)
+      (glinting #f)
+    )
+    (zeekling
+      (z-pos 50)
+      (direction "left")
+      (x 6562.28)
+      (y 141.264)
+      (glinting #f)
+    )
+  )
+)

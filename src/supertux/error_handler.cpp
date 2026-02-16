@@ -403,7 +403,7 @@ ErrorHandler::error_dialog_exception(const std::string& exception)
 {
   std::stringstream stream;
 
-  stream << "SuperTux has encountered a fatal exception!";
+  stream << "OldTux has encountered a fatal exception!";
 
   if (!exception.empty())
   {
@@ -448,7 +448,7 @@ ErrorHandler::error_dialog_exception(const std::string& exception)
     // Repurpose the stream.
     stream.str("");
 
-    stream << SDL_GetPrefPath("SuperTux", "supertux2")
+    stream << SDL_GetPrefPath("OldTux", "oldtux2")
            << "/console.err";
     FileSystem::open_path(stream.str());
   }
@@ -461,7 +461,7 @@ ErrorHandler::report_error(const std::string& details)
   std::stringstream url;
 
   // cppcheck-suppress unknownMacro
-  url << "https://github.com/supertux/supertux/issues/new"
+  url << "https://github.com/Vaesea/oldtux/issues/new"
          "?template=crash.yml"
          "&labels=type:crash,status:needs-confirmation"
          "&supertux-version=" << FileSystem::escape_url(PACKAGE_VERSION) <<

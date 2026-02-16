@@ -1,0 +1,350 @@
+(supertux-level
+  (version 3)
+  (name (_ "Entrance to the Castle"))
+  (author "Sam Townsend")
+  (license "GPL 2")
+  (allow-item-pocket "inherit")
+  (icon "")
+  (icon-locked "")
+  (statistics
+    (enable-coins #t)
+    (enable-secrets #t)
+  )
+  (sector
+    (name "main")
+    (init-script "
+      AIRHINT.set_action(\"outline\");
+      EARTHHINT.set_action(\"outline\");
+      FIREHINT.set_action(\"outline\");
+      WATERHINT.set_action(\"outline\");
+      WOODHINT.set_action(\"outline\");")
+    (ambient-light
+      (color 1 1 1)
+    )
+    (background
+      (scroll-offset-y -700)
+      (color 1 1 1)
+      (speed 0.5)
+      (image-top "images/background/BlueRock_Forest/blue-top.jpg")
+      (image "images/background/BlueRock_Forest/blue-middle.jpg")
+      (image-bottom "images/background/BlueRock_Forest/blue-bottom.jpg")
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (music
+      (file "music/forest3.ogg")
+    )
+    (path
+      (name "gen1772929288104989805356416")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 800)
+          (y 192)
+        )
+        (node
+          (x 800)
+          (y 64)
+        )
+      )
+    )
+    (path
+      (name "gen1772929288104989797397088")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 1280)
+          (y 192)
+        )
+        (node
+          (x 1280)
+          (y 64)
+        )
+      )
+    )
+    (path
+      (name "gen1772929288104989797396400")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 1760)
+          (y 192)
+        )
+        (node
+          (x 1760)
+          (y 64)
+        )
+      )
+    )
+    (path
+      (name "gen1772929288104989797396672")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 2240)
+          (y 192)
+        )
+        (node
+          (x 2240)
+          (y 64)
+        )
+      )
+    )
+    (path
+      (name "gen1772929288104989797412464")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 2720)
+          (y 192)
+        )
+        (node
+          (x 2720)
+          (y 64)
+        )
+      )
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "door1")
+      (path-ref "gen1772929288104989805356416")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "door2")
+      (path-ref "gen1772929288104989797397088")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "door3")
+      (path-ref "gen1772929288104989797396400")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "door4")
+      (path-ref "gen1772929288104989797396672")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "door5")
+      (path-ref "gen1772929288104989797412464")
+      (sprite "images/objects/platforms/vertical-wood.sprite")
+    )
+    (scriptedobject
+      (z-pos 50)
+      (physic-enabled #f)
+      (solid #f)
+      (name "AIRHINT")
+      (sprite "images/objects/keys/key_air.sprite")
+      (x 736)
+      (y 96)
+    )
+    (scriptedobject
+      (z-pos 50)
+      (physic-enabled #f)
+      (solid #f)
+      (name "EARTHHINT")
+      (sprite "images/objects/keys/key_earth.sprite")
+      (x 1216)
+      (y 96)
+    )
+    (scriptedobject
+      (z-pos 50)
+      (physic-enabled #f)
+      (solid #f)
+      (name "WOODHINT")
+      (sprite "images/objects/keys/key_wood.sprite")
+      (x 1696)
+      (y 96)
+    )
+    (scriptedobject
+      (z-pos 50)
+      (physic-enabled #f)
+      (solid #f)
+      (name "FIREHINT")
+      (sprite "images/objects/keys/key_fire.sprite")
+      (x 2176)
+      (y 96)
+    )
+    (scriptedobject
+      (z-pos 50)
+      (physic-enabled #f)
+      (solid #f)
+      (name "WATERHINT")
+      (sprite "images/objects/keys/key_water.sprite")
+      (x 2656)
+      (y 96)
+    )
+    (scripttrigger
+      (script "if(state.world2_keys.air) {
+	if( ! (\"airopen\" in this)) {
+		play_sound(\"sounds/turnkey.ogg\"); // make key sound...
+		wait(1);
+		AIRHINT.set_action(\"display\");
+		wait(2);
+		door1.goto_node(1);
+		this.airopen <- true;
+	}
+} else {
+	play_sound(\"sounds/locked.ogg\"); 
+	// play meep
+}")
+      (button #f)
+      (width 124)
+      (height 124)
+      (x 672)
+      (y 192)
+    )
+    (scripttrigger
+      (script "if(state.world2_keys.earth) {
+	if( ! (\"earthopen\" in this)) {
+		play_sound(\"sounds/turnkey.ogg\"); // make key sound...
+		wait(1);
+		EARTHHINT.set_action(\"display\");
+		wait(2);
+		door2.goto_node(1);
+		this.earthopen <- true;
+	}
+} else {
+	play_sound(\"sounds/locked.ogg\"); 
+	// play meep
+}")
+      (button #f)
+      (width 124)
+      (height 124)
+      (x 1152)
+      (y 192)
+    )
+    (scripttrigger
+      (script "if(state.world2_keys.wood) {
+	if( ! (\"woodopen\" in this)) {
+		play_sound(\"sounds/turnkey.ogg\"); // make key sound...
+		wait(1);
+		WOODHINT.set_action(\"display\");
+		wait(2);
+		door3.goto_node(1);
+		this.woodopen <- true;
+	}
+} else {
+	play_sound(\"sounds/locked.ogg\"); 
+	// play meep
+}")
+      (button #f)
+      (width 124)
+      (height 124)
+      (x 1632)
+      (y 192)
+    )
+    (scripttrigger
+      (script "if(state.world2_keys.fire) {
+	if( ! (\"fireopen\" in this)) {
+		play_sound(\"sounds/turnkey.ogg\"); // make key sound...
+		wait(1);
+		FIREHINT.set_action(\"display\");
+		wait(2);
+		door4.goto_node(1);
+		this.fireopen <- true;
+	}
+} else {
+	play_sound(\"sounds/locked.ogg\"); 
+	// play meep
+}")
+      (button #f)
+      (width 124)
+      (height 124)
+      (x 2112)
+      (y 192)
+    )
+    (scripttrigger
+      (script "if(state.world2_keys.water) {
+	if( ! (\"wateropen\" in this)) {
+		play_sound(\"sounds/turnkey.ogg\"); // make key sound...
+		wait(1);
+		WATERHINT.set_action(\"display\");
+		wait(2);
+		door5.goto_node(1);
+		this.wateropen <- true;
+	}
+} else {
+	play_sound(\"sounds/locked.ogg\"); 
+	// play meep
+}")
+      (button #f)
+      (width 124)
+      (height 124)
+      (x 2592)
+      (y 192)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 96)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (name "Background")
+      (width 100)
+      (height 35)
+      (tiles -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -19 0 -81 1478 -19 0 -81 1478 -19 0 -81 1478 -19 0 -81 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478 -20 0 -80 1478)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "Interactive")
+      (width 100)
+      (height 35)
+      (tiles -19 0 1404 -80 1372 -19 0 1404 -80 1372 -19 0 1404 -5 1372 0 -14 1372 0 -14 1372 0 -14 1372 0 -14 1372 0 -14 1372 -19 0 1404 -5 1372 0 -14 1372 0 -14 1372 0 -14 1372 0 -14 1372 0 -14 1372 -19 0 1404 -5 1372 0 -14 1372 0 -14 1372 0 -14 1372 0 -14 1372 0 -14 1372 -19 0 1393 -5 1376 0 -14 1376 0 -14 1376 0 -14 1376 0 -14 1376 0 -14 1376 -92 0 133 -5 0 -2 132 -92 0 133 -5 0 -2 132 -92 0 133 -5 0 -2 132 -18 1001 1003 -73 0 133 -5 0 -2 132 -17 1005 1006 1007 1370 -80 1368 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372 -18 1009 1011 1404 -80 1372)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (name "Foreground")
+      (width 100)
+      (height 35)
+      (tiles -3500 0)
+    )
+  )
+)

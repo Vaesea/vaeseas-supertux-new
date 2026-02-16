@@ -1,8 +1,0 @@
-(supertux-music
-  (file "summerchallenge.ogg")
-  (title "Summer Resort Theme")
-  (authors "Wolfgang_")
-  (license "CC-BY 3.0")
-  (loop-begin 0)
-  (loop-at    -1)
-)

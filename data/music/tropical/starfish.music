@@ -1,8 +1,0 @@
-(supertux-music
-  (file "starfish.ogg")
-  (title "Starfishario")
-  (authors "iamoneabe")
-  (license "CC0")
-  (loop-begin 0)
-  (loop-at    -1)
-)

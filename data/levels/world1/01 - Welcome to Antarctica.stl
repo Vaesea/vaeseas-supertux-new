@@ -1,0 +1,278 @@
+(supertux-level
+  (version 3)
+  (name (_ "Welcome to Antarctica"))
+  (author "SuperTux Team")
+  (license "GPL 2+ / CC-by-sa 3.0")
+  (target-time 30)
+  (allow-item-pocket "inherit")
+  (icon "")
+  (icon-locked "")
+  (statistics
+    (enable-coins #t)
+    (enable-secrets #t)
+  )
+  (sector
+    (name "main")
+    (ambient-light
+      (color 1 1 1)
+    )
+    (background
+      (color 1 1 1)
+      (speed 0.5)
+      (image "images/background/arctis2.png")
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (decal
+      (z-pos -10)
+      (sprite "images/decal/explanations/billboard-fireflower.png")
+      (x 3488)
+      (y 768)
+    )
+    (decal
+      (z-pos -10)
+      (x 928)
+      (y 896)
+    )
+    (decal
+      (z-pos -10)
+      (sprite "images/decal/explanations/billboard-resetpoint.png")
+      (x 4960)
+      (y 896)
+    )
+    (decal
+      (z-pos -10)
+      (sprite "images/decal/explanations/billboard-runjump.png")
+      (x 7296)
+      (y 864)
+    )
+    (decal
+      (z-pos -10)
+      (sprite "images/decal/explanations/billboard-buttjump.png")
+      (x 6784)
+      (y 672)
+    )
+    (decal
+      (z-pos -10)
+      (sprite "images/decal/explanations/billboard-backflip.png")
+      (x 2432)
+      (y 864)
+    )
+    (firefly
+      (z-pos 0)
+      (x 5360)
+      (y 928)
+    )
+    (flyingsnowball
+      (z-pos 50)
+      (x 7123)
+      (y 988)
+      (glinting #f)
+    )
+    (infoblock
+      (z-pos 51)
+      (message (_ "-Bonus Blocks
+!images/objects/bonus_block/full-0.png
+#Bonus blocks can contain coins, power-ups or special items to help you in your quest.
+#
+#Hit them from below to get at their contents."))
+      (x 384)
+      (y 960)
+    )
+    (infoblock
+      (z-pos 51)
+      (message (_ "-Eggs
+!images/powerups/egg/egg.png
+#The egg makes Tux grow larger. Tux can then smash wooden blocks with his head."))
+      (x 1344)
+      (y 960)
+    )
+    (infoblock
+      (z-pos 51)
+      (message (_ "-Checkpoints
+!images/objects/resetpoints/bell-m.png
+#Activate the checkpoint. If you die, you can retry the level from here. Every time you retry from a checkpoint, you will lose 10 percent of your coins (at least 25 coins)."))
+      (x 5360)
+      (y 864)
+    )
+    (infoblock
+      (z-pos 51)
+      (message (_ "-Running
+!images/tiles/signs/run.png
+#The path in front of you is blocked. Gain some speed before jumping to pass over the blocks."))
+      (x 7648)
+      (y 960)
+    )
+    (infoblock
+      (z-pos 51)
+      (message (_ "-Fire Flower
+!images/powerups/fireflower/fire_flower-0.png
+#The fire flower gives Tux the ability to shoot fireballs."))
+      (x 3904)
+      (y 832)
+    )
+    (infoblock
+      (z-pos 51)
+      (message (_ "-Tux Doll
+!images/powerups/1up/1up.png
+#Getting enough Tux Dolls allows you to access bonus islands."))
+      (x 4672)
+      (y 832)
+    )
+    (infoblock
+      (z-pos 51)
+      (message (_ "-Secret Areas
+#Many levels contain secret areas behind what seems to be plain walls. Look for clues to find them."))
+      (x 8192)
+      (y 960)
+    )
+    (jumpy
+      (z-pos 50)
+      (x 8608)
+      (y 768)
+      (glinting #f)
+    )
+    (mrbomb
+      (z-pos 50)
+      (x 4985)
+      (y 1040)
+      (glinting #f)
+    )
+    (mriceblock
+      (z-pos 50)
+      (x 2600)
+      (y 1051)
+      (glinting #f)
+    )
+    (music
+      (file "music/chipdisko.ogg")
+    )
+    (path
+      (name "gen17733593382869140722096")
+      (path
+        (adapt_speed #f)
+        (node
+          (x 8544)
+          (y 928)
+        )
+      )
+    )
+    (secretarea
+      (fade-tilemap "secret")
+      (width 113)
+      (height 171)
+      (x 8564)
+      (y 923)
+    )
+    (smartball
+      (z-pos 50)
+      (x 1088)
+      (y 1056)
+      (glinting #f)
+    )
+    (smartball
+      (z-pos 50)
+      (x 7555)
+      (y 1056)
+      (glinting #f)
+    )
+    (smartball
+      (z-pos 50)
+      (x 2980)
+      (y 1051)
+      (glinting #f)
+    )
+    (snowball
+      (z-pos 50)
+      (x 1687)
+      (y 1048)
+      (glinting #f)
+    )
+    (snowball
+      (z-pos 50)
+      (x 1970)
+      (y 1048)
+      (glinting #f)
+    )
+    (snowball
+      (z-pos 50)
+      (x 2940)
+      (y 1051)
+      (glinting #f)
+    )
+    (snowball
+      (z-pos 50)
+      (x 4035)
+      (y 932)
+      (glinting #f)
+    )
+    (snowball
+      (z-pos 50)
+      (x 4634)
+      (y 1049)
+      (glinting #f)
+    )
+    (snowball
+      (z-pos 50)
+      (x 4788)
+      (y 1048)
+      (glinting #f)
+    )
+    (snowball
+      (z-pos 50)
+      (x 7651)
+      (y 1056)
+      (glinting #f)
+    )
+    (spawnpoint
+      (name "main")
+      (x 96)
+      (y 1024)
+    )
+    (stalactite
+      (glinting #f)
+      (z-pos -1)
+      (x 6257)
+      (y 718)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (name "Background")
+      (width 310)
+      (height 40)
+      (tiles -7011 0 2192 2188 2187 2180 2181 2197 2189 2196 2190 -301 0 2192 2179 2197 -2 2196 2187 2196 2180 2190 -301 0 2192 2196 2181 -2 2187 2181 2180 2187 2198 2186 -300 0 2192 2179 2188 2197 -2 2196 2179 2195 2181 2190 -300 0 2192 2187 2195 2181 2180 2181 2188 -2 2197 2198 2186 -15 0 106 107 108 -59 0 130 -131 0 2067 -3 2068 2069 -85 0 2192 2189 2187 2188 2181 2189 2179 2195 2187 2195 2190 0 24 -11 0 24 0 109 110 111 -59 0 129 -221 0 2192 -2 2195 -2 2187 2197 2195 2197 2188 2196 -5 0 -7 2199 -66 0 129 -131 0 2057 2061 2066 2065 2059 -13 0 24 -10 0 24 -60 0 2192 2181 2180 2196 2197 2196 2180 2197 -2 2196 -5 0 2196 2188 2179 2196 2181 2187 2180 -55 0 -2 17 -9 0 129 -112 0 122 123 -11 0 2067 -3 2068 2069 2052 2056 2066 2061 2065 2059 -73 0 -2 24 -10 0 2192 2188 2195 2197 2189 2187 2197 2196 2180 2197 -5 0 2187 2179 2197 2188 2180 2179 2195 -66 0 129 -54 0 122 123 -2 0 122 123 -49 0 122 123 0 124 125 0 122 123 -13 0 2057 2070 2058 -2 2060 2055 2054 -51 0 122 123 -46 0 2196 2179 2187 2189 2180 -2 2196 -41 0 122 123 -23 0 129 -54 0 124 125 -2 0 124 125 -33 0 106 107 108 -13 0 124 125 0 124 125 0 124 125 -8 0 2057 2060 2065 2070 2055 2056 2066 2060 2061 -2 2070 2059 -31 0 106 107 108 -14 0 122 123 0 124 125 0 122 123 -43 0 2188 2180 2195 2179 2197 2180 2187 -30 0 136 137 -9 0 124 125 0 122 123 -20 0 129 -34 0 25 -19 0 124 125 -2 0 124 125 -13 0 25 -19 0 109 110 111 -13 0 124 125 0 124 125 0 124 125 25 -7 0 2057 2058 2060 2058 2060 2065 -3 2058 2070 2066 2059 -31 0 109 110 111 -11 0 25 -2 0 124 125 0 124 125 0 124 125 -43 0 2187 -2 2180 2196 2197 2188 2181 -20 0 25 -9 0 138 139 -9 0 124 125 0 124 125 -9 0 -2 8 -3 0 8 -5 0 129 8 -14 0 -10 8 -100 0 2057 2050 2063 2051 2061 2058 2061 2060 2058 2070 2061 2059 -99 0 2181 2195 2196 -2 2180 2189 2181 -192 0 2062 2064 0 2062 2051 2060 -2 2070 2065 -2 2058 2059 -64 0 -5 8 -9 0 -6 8 -30 0 -4 8 -181 0 -3 8 2057 2058 2061 2065 2070 -2 2066 2059 -302 0 2057 2070 2058 2061 2070 2058 2060 2059 -302 0 2057 -2 2058 2060 -2 2070 2060 2059 -302 0 2057 2065 2070 -2 2061 2070 2060 2059 -203 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 310)
+      (height 40)
+      (tiles -3911 0 7 -7 8 9 -301 0 13 -7 14 15 -301 0 10 -7 11 12 -301 0 10 -7 11 12 -301 0 10 -7 11 12 -301 0 10 -2 11 19 -4 11 12 -301 0 10 -7 11 12 -301 0 10 -7 11 12 -301 0 10 -7 11 12 -80 0 133 -22 0 -2 132 -84 0 85 86 87 88 -25 0 85 86 87 88 -17 0 -9 77 -18 0 85 86 87 88 -31 0 10 -7 11 12 -33 0 85 86 87 88 -43 0 133 0 85 86 87 88 -17 0 -2 132 -28 0 85 86 87 88 -52 0 89 90 91 92 -25 0 89 90 91 92 -17 0 77 -7 44 77 -8 0 128 -9 0 89 90 91 92 -31 0 16 -7 17 18 -33 0 89 90 91 92 -43 0 133 0 89 90 91 92 -17 0 -2 132 -28 0 89 90 91 92 -16 0 85 86 87 88 -82 0 77 -7 44 77 -142 0 133 -22 0 -2 132 -48 0 89 90 91 92 -82 0 77 -7 44 77 -64 0 102 -77 0 133 -22 0 -2 132 -134 0 -9 77 -142 0 133 -22 0 -2 132 -125 0 -2 83 0 102 -2 83 -19 0 83 0 83 -118 0 7 -4 8 9 -8 0 133 -22 0 -2 132 -106 0 -5 44 -94 0 7 -5 8 9 -5 0 7 -7 8 9 -45 0 13 -4 14 15 -8 0 133 -22 0 -2 132 -46 0 -5 44 -22 0 -4 44 -29 0 2072 -3 2073 2074 -94 0 13 -5 14 15 -5 77 13 -7 14 15 -29 0 48 -14 0 7 22 -4 11 12 -8 0 133 -14 0 126 -7 0 -2 132 -73 0 7 -2 8 9 -37 0 7 -21 8 9 -44 0 -9 44 -8 0 -5 44 -2 0 10 -5 11 12 -5 0 10 -7 11 12 -28 0 -2 48 -14 0 13 23 30 -2 44 31 12 -8 0 133 -22 0 -2 132 -18 0 77 83 77 83 77 83 -21 0 102 77 0 77 83 77 83 -7 0 -4 44 -10 0 13 -2 14 15 -23 0 -5 44 -9 0 13 -21 14 113 9 -11 0 -5 83 -16 0 7 -4 8 9 -5 0 7 -7 8 9 -6 0 7 -8 8 22 -5 11 12 0 -3 44 0 10 -7 11 12 -20 0 -5 44 -3 0 -2 48 -12 0 7 8 22 11 12 -2 44 10 12 -8 0 133 -22 0 -2 132 -59 0 7 -2 8 9 -10 0 10 -2 11 12 -23 0 2072 -3 2073 2074 -9 0 10 -21 11 20 113 9 -31 0 13 -4 14 15 -5 0 13 -7 14 15 -6 0 13 -8 14 23 -5 11 21 9 -3 44 7 22 -7 11 12 -28 0 -3 48 -11 0 13 14 23 11 12 -2 44 10 12 0 44 -6 0 133 -22 0 -2 132 -59 0 13 -2 14 15 -10 0 10 -2 11 12 -37 0 10 -22 11 20 113 9 -30 0 10 -4 11 12 -5 0 10 -7 11 12 -6 0 10 -14 11 20 15 -3 44 13 23 -7 11 12 -28 0 -4 48 -8 0 7 8 22 -3 11 12 -2 44 16 18 -5 44 -3 0 133 -22 0 -2 132 -5 0 7 -53 8 22 -2 11 21 -10 8 22 -2 11 21 -23 8 9 -3 0 7 -9 8 22 -14 11 19 -8 11 20 113 -30 8 22 -4 11 12 -5 0 10 -7 11 12 -6 0 10 -15 11 21 -3 8 22 -8 11 12 -4 0 7 -23 8 -5 48 -7 8 114 14 23 -3 11 21 -2 44 -3 8 44 -6 8 133 -14 8 -8 0 -2 132 -3 8 9 0 13 -53 14 23 -2 11 20 -10 14 23 -2 11 20 -23 14 15 -3 0 13 -9 14 23 -24 11 20 -30 14 23 -4 11 12 -5 0 10 -7 11 12 -6 0 10 -15 11 20 -3 14 23 -8 11 12 -4 0 13 -35 14 23 -5 11 20 -40 14 15 0 10 -94 11 12 -3 0 10 -70 11 21 -5 2178 22 -7 11 21 -6 2178 22 -28 11 21 -4 2178 22 -82 11 12 0 10 -94 11 21 -3 2178 22 -70 11 20 -5 14 23 -7 11 20 -6 14 23 -28 11 20 -4 14 23 -82 11 12 0 10 -94 11 20 -3 14 23 -208 11 12 0 10 -307 11 12 0 10 -307 11 12 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 100)
+      (width 310)
+      (height 40)
+      (tiles -8341 0 130 -309 0 129 -309 0 129 -16 0 127 -292 0 129 -309 0 129 -309 0 129 -309 0 129 -277 0 -5 8 -27 0 129 -1888 0)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #f)
+      (z-pos 101)
+      (name "secret")
+      (path-ref "gen17733593382869140722096")
+      (width 5)
+      (height 6)
+      (tiles -4 11 12 -4 11 12 -4 11 12 -4 11 12 -4 11 21 -4 11 20)
+    )
+  )
+)

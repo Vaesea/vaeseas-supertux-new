@@ -1,8 +1,0 @@
-(supertux-music
-  (file "grasslands.ogg")
-  (title "Grasslands")
-  (authors "SubspaceAudio")
-  (license "CC0")
-  (loop-begin 0)
-  (loop-at    -1)
-)

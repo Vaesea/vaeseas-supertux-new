@@ -1,8 +1,0 @@
-(supertux-music
-  (file "thaelmines.ogg")
-  (title "Tha'el Mines")
-  (authors "SubspaceAudio")
-  (license "CC0")
-  (loop-begin 0)
-  (loop-at    -1)
-)
