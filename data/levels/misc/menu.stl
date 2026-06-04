@@ -28,7 +28,7 @@
       (mode "normal")
     )
     (music
-      (file "music/theme.music")
+      (file "/music/misc/theme.music")
     )
     (spawnpoint
       (name "main")
