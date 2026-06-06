@@ -1,8 +1,0 @@
-(supertux-music
-  (file "ghostlyskulls.ogg")
-  (title "Ghostly Skulls")
-  (authors "Vaesea")
-  (license "CC-BY-SA 4.0")
-  (loop-begin 0)
-  (loop-at    -1)
-)

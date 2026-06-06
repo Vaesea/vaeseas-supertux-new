@@ -1,6 +1,0 @@
-(supertux-level-subset
-  (title (_ "Tropical Island"))
-  (description (_ "World 3"))
-  (levelset #t)
-  (hide-from-contribs #f)
-)

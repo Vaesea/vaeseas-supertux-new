@@ -1,6 +1,0 @@
-(supertux-world
-  (title (_ "Icy Island"))
-  (description "The first world of PepperTux.")
-  (hide-from-contribs #f)
-  (levelset #f)
-)

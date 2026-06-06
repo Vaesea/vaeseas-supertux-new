@@ -1,9 +1,0 @@
-(supertux-level-subset
-  (title (_ "Forest world"))
-  (description (_ "The second world of PepperTux."))
-  (levelset #f)
-  (contrib-type "user")
-  (hide-from-contribs #f)
-  (title-level "")
-  (tuxdolls-required 0)
-)

@@ -1,6 +1,0 @@
-(supertux-level-subset
-  (title (_ "Snow Mountain"))
-  (description (_ "World 4"))
-  (levelset #t)
-  (hide-from-contribs #f)
-)
