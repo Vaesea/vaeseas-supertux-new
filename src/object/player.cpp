@@ -116,19 +116,19 @@ const float JUMP_EARLY_APEX_FACTOR = 3.0;
 const float JUMP_GRACE_TIME = 0.25f; /**< time before hitting the ground that the jump button may be pressed (and still trigger a jump) */
 const float COYOTE_TIME = 0.1f; /**< time between the moment leaving a platform without jumping and being able to jump anyways despite being in the air */
 
-const float MAX_SLIDE_SPEED = 700.f; /**< Max speed for sliding */
-const float MAX_FALL_SLIDE_SPEED = 475.f; /**< Max slide speed that Tux can get from falling */
-const float DOWN_SLIDE_ACCEL = 1000.f; /** < Acceleration for sliding DOWN slopes */
-const float UP_SLIDE_ACCEL = 1100.f; /**< Acceleration for sliding UP slopes */
+const float MAX_SLIDE_SPEED = 0.f; /**< Max speed for sliding */
+const float MAX_FALL_SLIDE_SPEED = 0.f; /**< Max slide speed that Tux can get from falling */
+const float DOWN_SLIDE_ACCEL = 0.f; /** < Acceleration for sliding DOWN slopes */
+const float UP_SLIDE_ACCEL = 0.f; /**< Acceleration for sliding UP slopes */
 
-const float MAX_SLIDE_ROTATING_TIME = 0.15f;
-const float MIN_SLIDE_ROTATING_TIME = 0.075f;
+const float MAX_SLIDE_ROTATING_TIME = 0.f;
+const float MIN_SLIDE_ROTATING_TIME = 0.f;
 
 /* Tux's collision rectangle */
 const float TUX_WIDTH = 31.8f;
-const float RUNNING_TUX_WIDTH = 34;
+const float RUNNING_TUX_WIDTH = 31.8f;
 const float SMALL_TUX_HEIGHT = 30.8f;
-const float BIG_TUX_HEIGHT = 62.8f;
+const float BIG_TUX_HEIGHT = 30.8f;
 const float DUCKED_TUX_HEIGHT = 31.8f;
 
 /* Stone Tux variables */
@@ -821,8 +821,8 @@ Player::update(float dt_sec)
   if (m_floor_normal.y < 0.f && m_crawl && !m_stone)
   {
     m_crawl = false;
-    m_sliding = true;
-    m_was_crawling_before_slide = true;
+    m_sliding = false;
+    m_was_crawling_before_slide = false;
   }
 
   //sliding
@@ -893,7 +893,7 @@ Player::update(float dt_sec)
     else if (m_floor_normal.y == 0.f && std::abs(m_physic.get_velocity_x()) <= 1.f)
     {
       if (is_big() || m_growing)
-          m_crawl = true;
+          m_crawl = false;
       m_sliding = false;
       m_slidejumping = false;
     }
@@ -969,7 +969,7 @@ Player::slide()
     m_was_crawling_before_slide = false;
     return;
   }
-  m_sliding = true;
+  m_sliding = false;
 
   if (on_ground())
   {
@@ -1223,7 +1223,7 @@ Player::handle_horizontal_input()
   }
 
   if (m_duck && (m_controller->hold(Control::LEFT) || m_controller->hold(Control::RIGHT))) {
-    m_crawl = true;
+    m_crawl = false;
   }
 
   // player on slope -> duck? start sliding.
@@ -1234,7 +1234,7 @@ Player::handle_horizontal_input()
       m_stone = true;
       m_does_buttjump = false;
     }
-    m_sliding = true;
+    m_sliding = false;
     // silly nonsense; tuxs "unslides" back into tall tux if he's large and his
     // action 'clips' through the ground. Don't blame me, i hate this file.
     if (is_big())
@@ -1390,7 +1390,7 @@ Player::do_standup(bool force_standup)
   new_bbox.set_height(new_height);
   if (!Sector::get().is_free_of_movingstatics(new_bbox, this, true) && !force_standup)
   {
-    m_crawl = true;
+    m_crawl = false;
     return;
   }
 
